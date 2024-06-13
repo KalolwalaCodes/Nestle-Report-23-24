@@ -1,0 +1,14 @@
+:root {
+    --main-bg-color: #f0f0f0;
+    --main-text-color: #333333;
+    --primary-color: #6200ea;
+    --secondary-color: #03dac6;
+    --font-size-normal: 16px;
+    --font-size-heading-big:28px;
+    --font-size-heading-big-xl:44px;
+    --font-size-heading-small:20px;
+    --font-size-heading-medium:24px;
+    --text-bg-gradient:linear-gradient(to right, #46beb5, #349385);
+    
+  }
+  
