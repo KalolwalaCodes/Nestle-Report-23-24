@@ -14,21 +14,14 @@ color: black;
 .annual-report-text{
     position: absolute;
     left: 7%;
+    text-align: center;
 }
 .nestle-logo{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
-.gradient-line{
-    width: 100vw;
-    /* background: linear-gradient(to right, #F47F42, #F27E93); */
-    background:linear-gradient(to right, rgba(0, 128, 255, 0), #F47F42, rgba(0, 128, 255, 0));
-    height: 3px;
-    z-index: 11111;
-    top: 12vh;
-    position: absolute;
-}
+
    /* **************************** */
    /* **************************** */
 
@@ -38,12 +31,13 @@ color: black;
 #nav-container {
     /* margin-left: auto; */
     position: absolute;
-    right: 10%;
+    right: 8%;
 }
 
 #nav-toggle {
     /* position: absolute; */
     /* left: 10%; */
+    right: 7%;
     display: block;
     width: 32px;
     height: 32px;
@@ -112,7 +106,8 @@ color: black;
 }
 
 #nav-fullscreen {
-    width: 100%;
+    width: 100vw;
+    
     position: fixed;
     left: 0;
     top: 0;
@@ -134,9 +129,9 @@ color: black;
     
 }
 
-#nav-fullscreen.open {
+#nav-fullscreen.open ,.heading-wrapper-navbar{
     visibility: visible;
-    font-size: 40px;
+    font-size: 16px;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -144,7 +139,11 @@ color: black;
     transition: ease-in-out 0.5s;
     transition-delay: 0.25s;
 }
-
+.heading-wrapper-navbar{
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+}
 /* END NAV */
 
 /* BEGIN OTHER */
@@ -178,11 +177,11 @@ color: black;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-.nav-menu-wrap{
+.nav-menu-wrap-1{
     width: 90%;
     margin: auto;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 .nav-menu-dynamic-img-container{
     width: 400px;

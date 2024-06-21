@@ -111,7 +111,7 @@ const ExcelData = () => {
         </div>
         
       </div>
-      <StaticExcelData/>
+      {/* <StaticExcelData/> */}
 </>
     );
   };

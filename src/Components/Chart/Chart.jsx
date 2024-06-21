@@ -7,19 +7,21 @@ const BarChart = () => {
   const [chart, setChart] = useState(null);
   const [yAxisKey, setYAxisKey] = useState('financials.sale'); // Default to 'sale'
   const [activeTab, setActiveTab] = useState('sale'); // Active tab state
-
+  const elementStyle = {
+    width: window.innerWidth >= 900 ? '70%' : '90%'
+};
   const values = [
-    { year: 'FY 19-20', financials: { sale: 122953, profit: 25940, patax: 19684, eps: 204.2, dpshare: 342.6, capex: 1522 } },
-    { year: 'FY 20-21', financials: { sale: 132902, profit: 28775, patax: 20824, eps: 216.0, dpshare: 200.0, capex: 4741 } },
-    { year: 'FY 21-22', financials: { sale: 146649, profit: 32288, patax: 21184, eps: 219.7, dpshare: 200.0, capex: 7308 } },
-    { year: 'FY 22-23', financials: { sale: 167895, profit: 33659, patax: 23905, eps: 247.9, dpshare: 220.0, capex: 5407 } },
-    { year: 'FY 23-24', financials: { sale: 191141, profit: 37789, patax: 25708, eps: 263.5, dpshare: 240.0, capex: 6104 } }
+    { year: 'FY 19-20', financials: { sale: 122953, profit: 25940, patax: 19684, eps: 20.42, dpshare: 34.2, capex: 1522 } },
+    { year: 'FY 20-21', financials: { sale: 132902, profit: 28775, patax: 20824, eps: 21.60, dpshare: 20.0, capex: 4741 } },
+    { year: 'FY 21-22', financials: { sale: 146649, profit: 32288, patax: 21184, eps: 21.97, dpshare: 20.0, capex: 7308 } },
+    { year: 'FY 22-23', financials: { sale: 167895, profit: 33659, patax: 23905, eps: 24.79, dpshare: 22.0, capex: 5407 } },
+    { year: 'FY 23-24', financials: { sale: 242755, profit: 53418, patax: 39328, eps: 40.79, dpshare: 32.2, capex: 18783 } }
   ];
 
   useEffect(() => {
     const data = {
       datasets: [{
-        label: 'Constant financial growth over the years',
+        label: 'Constant financial growth over the years (₹)',
         data: values,
         backgroundColor: values.map((_, index) => 
           index === values.length - 1 ? 'rgba(92, 196, 188, 1)' : 'rgba(202, 232, 229, 1)'
@@ -56,8 +58,8 @@ const BarChart = () => {
             },
           },
         },
-        barThickness: 72,
-        maxBarThickness: 72,
+        barThickness:window.innerWidth>=900? 72:32,
+        maxBarThickness:window.innerWidth>=900? 72:32,
       },
       plugins: [ChartDataLabels],
     };
@@ -91,25 +93,19 @@ const BarChart = () => {
   return (
     <div>
       <div className="chartMenu">
-        <div className="buttons">
+        <div className="buttons flex sm:flex-col md:flex-row">
           <button  className={`toggle-btn-tab${activeTab === 'sale' ? ' active' : ''}`} onClick={() => updateChart('sale')}>Sales</button>
           <button className={activeTab === 'profit' ? ' active' : ''} onClick={() => updateChart('profit')}>Profit from operations</button>
           <button className={activeTab === 'patax' ? '  active' : ''} onClick={() => updateChart('patax')}>Profit after tax</button>
           <button className={activeTab === 'eps' ? '  active' : ''} onClick={() => updateChart('eps')}>Eps</button>
           <button className={activeTab === 'dpshare' ? 'active' : ''} onClick={() => updateChart('dpshare')}>Dividend per Share</button>
           <button className={activeTab === 'capex' ? 'active' : ''} onClick={() => updateChart('capex')}>Capex</button>
-        </div>
-        <div className="downloadMenu">
-          <button className="downloadButton">Download</button>
-          <div className="dropdownContent">
-            <button onClick={() => downloadImage('jpeg')}>JPEG</button>
-            <button onClick={() => downloadImage('png')}>PNG</button>
-          </div>
+          <button className="downloadButton" onClick={() => downloadImage('jpeg')}>Download</button>
         </div>
       </div>
       <div className="chartCard">
-        <div className="chartBox">
-          <canvas ref={chartRef} id="myChart"></canvas>
+        <div className="chartBox" style={elementStyle}>
+          <canvas style={{width:"100%"}} ref={chartRef} id="myChart"></canvas>
         </div>
       </div>
       <style jsx>{`
@@ -132,7 +128,7 @@ const BarChart = () => {
         }
         .chartMenu button {
           margin: 0 10px;
-          padding: 10px 20px;
+          padding: 5px 30px !important;
           border: none;
           background: rgba(54, 162, 235, 1);
           cursor: pointer;
@@ -141,7 +137,7 @@ const BarChart = () => {
           border-radius: 3px;
         }
         .chartMenu button.active {
-          background: rgb(40 54 173);
+          background: rgb(6, 147, 135);
           color: white;
         }
         .downloadMenu {
@@ -190,7 +186,6 @@ const BarChart = () => {
           justify-content: center;
         }
         .chartBox {
-          width: 70%;
           padding: 12px;
           border: solid 2px rgba(54, 162, 235, 1);
           background: white;
