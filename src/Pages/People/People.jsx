@@ -82,7 +82,7 @@ perspectives, energy, and innovative ideas.
      Building a digi-able workforce
      </p>
        <p className="normal-paragraph-container">
-       Recognising the increasing importance of digital fluency, your Company prioritises digi-ability
+       Recognizing the increasing importance of digital fluency, your Company prioritises digi-ability
 and digi-integration within its development strategy. This translates into a range of digital learning
 tools, from leveraging platforms
 like LinkedIn (used by over 3600+ employees) to offering app-based learning specifically designed for 1,500+ strong field force, equipping them with the necessary

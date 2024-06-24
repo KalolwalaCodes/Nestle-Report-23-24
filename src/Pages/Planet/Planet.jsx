@@ -32,7 +32,6 @@ Your Company continues to reduce its reliance on virgin plastic by minimizing it
 in secondary packaging for NESCAFÉ and eliminating overwrap on nutrition products etc. Your Company has also undertaken a unique initiative of making KITKAT and GERBER benches out of recycled plastic.
 <br />
 Your Company is fully compliant with Plastic Waste Management Rules and has registered as a 'Brand Owner,' ensuring 100% adherence to regulations. It continues to
-<br />
 collaborate with government registered waste management agencies for the end-to-end management of plastic waste. Demonstrating its commitment under Extended Producer Responsibility (EPR), your Company responsibly managed ~25,600 MT of plastic packaging, which was above the EPR target of ~ 23,000 MT assigned by the Central Pollution Control Board.
        </p>
        <GradientCard01

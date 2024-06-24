@@ -72,8 +72,7 @@ It is an AI-powered eB2B platform for RUrban markets that is more effective in d
           <br />
           <b>Sanand leads the way</b>
           <p className="normal-paragraph-container">
-          serves as a shining example, operating as a completely digitized and paperless facility.
-                    </p>
+          Your Company's Sanand factory serves as a shining example, operating as a completely digitized and paperless facility.                    </p>
                     <br />
                     <b>Sustainable deliveries</b>
                     <p className="normal-paragraph-container">

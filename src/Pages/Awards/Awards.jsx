@@ -1,14 +1,15 @@
 import React from "react";
+import { motion } from 'framer-motion';
 
 const Awards = () => {
   return (
     <div className="w-[86%] m-auto">
-      <h3 className="bold-heading-text text-black font-bold">
+      <motion.h3 initial={{opacity:0,x:"-10px"}} whileInView={{opacity:1,x:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="bold-heading-text text-black font-bold">
         Awards and recognitions
-      </h3>
-      <p className="qus-para">Company</p>
-      <div className="flex justify-start align-middle flex-wrap w-full lg:gap-2 sm:gap-8 mb-6">
-        <div class="w-[32%]  border  rounded-lg shadow card-main-c ">
+      </motion.h3>
+      <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="qus-para">Company</motion.p>
+      <div className="flex justify-start align-middle flex-wrap w-full lg:gap-2  mb-6">
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full   border  rounded-lg shadow card-main-c mb-1">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -21,8 +22,9 @@ const Awards = () => {
               at the Business Today MINDRUSH Awards
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+     
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -34,8 +36,8 @@ const Awards = () => {
               <span className="pink-dark-text"> ‘People-Focused CEO’</span> cof the year
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -47,8 +49,8 @@ const Awards = () => {
               <span className="pink-dark-text">‘The Best CFO’ in Large Enterprises Manufacturing Industry</span>category by The Financial Express
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -61,8 +63,8 @@ const Awards = () => {
               at Bharat Logistics and Supply Chain Conclave & Awards 2024
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -75,8 +77,8 @@ const Awards = () => {
               by CII
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -88,8 +90,8 @@ const Awards = () => {
               <span className="pink-dark-text"> ‘DEI Excellence in People Practices'</span> Award at Spark Inclusive Leadership Summit
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -101,8 +103,8 @@ const Awards = () => {
               <span className="pink-dark-text">1st Runner Up at CII’s 36th Quality circle competition</span> 
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -115,8 +117,8 @@ const Awards = () => {
               by the Council for Fair Business Practices              
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -129,8 +131,8 @@ const Awards = () => {
               from Honourable Chief Minister of Himachal Pradesh
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -142,8 +144,8 @@ const Awards = () => {
               <span className="pink-dark-text"> ‘National Awards for Manufacturing Competitiveness’</span> 
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -155,8 +157,8 @@ const Awards = () => {
               <span className="pink-dark-text"> MRSI Golden Key Award</span> 
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -170,8 +172,8 @@ const Awards = () => {
 
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -183,8 +185,8 @@ const Awards = () => {
               <span className="pink-dark-text">‘Regional finals’ </span> (North Zone) at the CII 36th Quality Circle Competition
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -193,12 +195,12 @@ const Awards = () => {
           <div class="p-4 pt-0">
             <p class=" normal-paragraph-container text-center">
             Nestlé India’s Samalkha factory was conferred th an award at the
-              <span className="pink-dark-text"> CII 14 Food Safety Awards</span>
+              <span className="pink-dark-text"> CII 14<span style={{fontSize:"14px"}}>th </span>Food Safety Awards</span>
                for maintaining excellent levels of food safety
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -210,8 +212,8 @@ const Awards = () => {
               <span className="pink-dark-text"> DMA Asia Echo & DMA Sparkies</span> 
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -224,23 +226,23 @@ const Awards = () => {
               for Women, </span> 2024 by Economic Times Edge
             </p>
           </div>
-        </div>
-        <div class="max-h-[400px] ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="max-h-[400px] ">
          
         <img className="w-full" src="./Awards/Artboard 46@3x.webp" alt="" />
-        </div>
-        <div class="w-[32%]">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1">
         
         <img className="w-full" src="./Awards/Artboard 47@3x.webp" alt="" />
-        </div>
-        <div class="w-[32%]">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1">
         
         <img className="w-full" src="./Awards/Artboard 48@3x.webp" alt="" />
-        </div>
-        <div class="w-[32%]">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1">
         
         <img className="w-full" src="./Awards/Artboard 49@3x.webp" alt="" />
-        </div>
+        </motion.div>
        
          
           
@@ -248,9 +250,9 @@ const Awards = () => {
         
 
       </div>
-      <p className="qus-para">Brands</p>
+      <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.1}} className="qus-para">Brands</motion.p>
       <div className="flex justify-start align-middle flex-wrap w-full gap-2 my-6 pb-6">
-        <div class="w-[32%]  border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1  border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -263,8 +265,8 @@ const Awards = () => {
               <span className="pink-dark-text">1 for CEREGROW</span>
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -278,8 +280,8 @@ const Awards = () => {
                award in FMCG Confectionery category at Herald Global &BARC Asia Prestigious Brands Awards
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -292,8 +294,8 @@ const Awards = () => {
               <span className="pink-dark-text"> Exchange4media Marketing Awards 2023</span>
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -306,8 +308,8 @@ const Awards = () => {
               by Nutrihub IIMR
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -323,8 +325,8 @@ const Awards = () => {
                 at the SLIM-KANTAR People’s Awards 2023
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -337,8 +339,8 @@ const Awards = () => {
                and was recognized as one of the most preferred brands for Indian consumers
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -351,8 +353,8 @@ const Awards = () => {
               for ‘Best Short Form Video for its product intrinsic films’
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -365,8 +367,8 @@ const Awards = () => {
               at Digies 2024 for the #CatchABreak campaign             
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -379,8 +381,8 @@ const Awards = () => {
               at the 12th Edition of TRA’s Brand Trust Report
             </p>
           </div>
-        </div>
-        <div class="w-[32%] border  rounded-lg shadow card-main-c ">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -393,15 +395,15 @@ const Awards = () => {
               & DMA Sparkies, and 1 gold and 3 silvers at the ICMA awards</span> 
             </p>
           </div>
-        </div>
-        <div class="w-[32%]">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1">
         
         <img className="w-full h-full" src="./Awards/Artboard 50@3x.webp" alt="" />
-        </div>
-        <div class="w-[32%]">
+        </motion.div>
+        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1">
         
         <img className="w-full" src="./Awards/Artboard 51@3x.webp" alt="" />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

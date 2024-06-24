@@ -28,12 +28,12 @@ const Csr = () => {
         <br />
         <b>Project Jagriti</b>
           <p className="normal-paragraph-container">
-          Project Jagriti is a public health programme promoting optimal health outcomes across India. Launched
-in 2014 in collaboration with the nutrition-focused NGO Mamta,
-the project has reached over 12.7 million beneficiaries. This includes both direct beneficiaries and those indirectly impacted by its outreach efforts. Project Jagriti operates in 8
-states and union territories, making a significant contribution to health, hygiene and nutrition throughout the country.
-<br />Project Jagriti's 'Life Course Approach' emphasizes on health and hygiene education across different key stages of life. By focusing on adolescents, young
-couples, pregnant women, and lactating mothers, the programme ensures critical information reaches those who need it most. The initiative emphasises the importance of proper nutrition throughout life, the benefits of prenatal and postnatal care, the importance of exclusive breastfeeding and family planning
+          Project Jagriti was launched in 2014 in partnership with Mamta Health Institute for Mother and Child as a part of Nestlé India’s commitment
+to provide education programmes
+for good nutrition and feeding practices. The project promotes optimal health outcomes across India and has reached over 12.7 million beneficiaries during the period under
+review. This includes both direct beneficiaries and those indirectly impacted by its outreach efforts. Project Jagriti operates in eight states and union territories, making a significant contribution to health, hygiene and nutrition.
+<br />
+Project Jagriti's 'Life Course Approach' emphasizes on health and hygiene education across different key stages of life. The initiative further emphasizes the importance of proper nutrition throughout life, the benefits of prenatal and postnatal care, and the significance of exclusive breastfeeding and family planning.
           </p>
         <img className='w-full' src="./ProductPortfolio/Artboard 34@3x.webp" alt="" />
              <div className='flex w-100 sm:flex-col md:flex-row mt-6 align-top p-4' style={{background:"rgb(246 245 244)"}}>
@@ -61,9 +61,7 @@ waste management practices and encourages parents to support their children in a
         </p>
         <br />
         <b>Project Jigyasa a part of Nestlé Healthy Kids Programme</b>
-        <p className="normal-paragraph-container">
-        The Nestlé Healthy Kids Programme is a longstanding initiative dedicated to promoting healthy lifestyles amongst adolescents and parents across India. Launched as a pilot programme in 2009, it has grown significantly, reaching over 600,000 adolescents and 56,000 parents in 26 states and union territories.
-        <br />
+        <p className="normal-paragraph-container"> 
         Education is a powerful tool to bring about change in society.
 In collaboration with Agastya International Foundation, Project Jigyasa was launched in 2022 with the aim of spreading science education. As a part of this initiative, science labs and libraries have been set up in 20 schools of Goa, Haryana and Himachal Pradesh. The students have benefitted from the Project as it continues to increase access to practical, hands-on science education through an innovative, holistic and experiential model.
           </p>
@@ -119,12 +117,13 @@ and demonstrates the power of collaboration in addressing food safety concerns.
         <br />
         <b>Project Hilldaari</b>
         <p className="normal-paragraph-container">
-        In partnership with PLAN Foundation and Stree Mukti Sangathana and technical partner Recity India Pvt Ltd, project Hilldaari has successfully developed inclusive and resilient models for waste management in select tourist destinations of India in the last 5 years.
+        In partnership with PLAN Foundation, Stree Mukti Sangathana and technical partner, Recity India Pvt. Ltd. project Hilldaari has successfully developed inclusive and resilient models for waste management in select tourist destinations of India in the last five years.
         <br />
-        Project Hilldaari has diverted 15,781 MT of waste from landfill through source segregation in
-7 cities. About 84% of source segregation Project Hilldaari invokes a sense of solidarity
-and collective spirit among citizens. The initiative has professionalized over 1,100 waste workers towards segregation of waste at source through a multi-collaborative approach
-with municipal councils, citizens, contractors, waste workers and influencers. Waste workers have been trained to become a part of behaviour change interventions. The project has also provided them with occupational ID, benefits such as health insurance, protective gear necessary for their work.
+        Project Hilldaari has diverted approximately 15,700 MT of waste
+        from landfill through source segregation in seven cities. About 84% of source segregation has been achieved across 69,700 residential and commercial waste collection points during the period under review.
+        <br />
+        Project Hilldaari invokes a sense of solidarity and collective spirit among citizens. The initiative has professionalized over 1,100 waste workers through a multi- collaborative approach with municipal councils, associations, citizens, contractors, and influencers. Waste workers have also been trained to become a part of behavior change interventions. The project has also provided them with occupational IDs, benefits such as health insurance and protective gear necessary
+        for their work.
           </p>
                 </div>
                 <div className='sm:w-full md:w-[40%] '>

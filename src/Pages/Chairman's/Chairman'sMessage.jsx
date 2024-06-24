@@ -40,7 +40,7 @@ const ChairmanMessage = () => {
         focus on sustained growth and innovation.
         <br />
         Your Company was listed on the National Stock Exchange and recently
-        split its shares to make them more affordable to shareholders. This move
+        split its shares in a 1:10 ratio to make them more affordable to shareholders. This move
         has been positively received by the retail shareholders, giving them an
         opportunity to be a part of the Company’s value creation journey.
         <p className="qus-para">
@@ -59,12 +59,13 @@ const ChairmanMessage = () => {
         cocoa.
         <div className="flex">
         <GradientCard01 bigData={'112 years'} smallData={"Nestlé's legacy in India"} />
+        <GradientCard01 bigData={'6.8%'} smallData={"Sales contributed by e-commerce"} />
         </div>
         By combining the power of its brands, meticulous planning, astute
         implementation and outstanding execution, by a diverse team of
         employees, partners, suppliers, distributors and retailers, your Company
         delivered <b>'Performance with Pride'..</b>
-        <GradientCard01 bigData={'6.8%'} smallData={"Sales contributed by e-commerce"} />
+        
 
         <p className="qus-para">
           Investing in innovation as an engine for growth

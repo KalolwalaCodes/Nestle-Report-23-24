@@ -78,4 +78,11 @@
       font-size: 16px;
     }
   }
-  
+  @media screen and (max-width:1000px) {
+    .table-heading-year, .table-row{
+      flex-direction: column !important;
+    }
+    .table-content{
+      flex-direction: row;
+    }
+  }

@@ -141,7 +141,7 @@ export const Navbar = () => {
                   </Link>
                   
                 </li>
-                <li><Link onClick={toggleNav} to={"/finincial-highlights"}>
+                <li><Link target="_blank" onClick={toggleNav} to={"./Pdf/Nestle PDF Corporate Information.pdf"}>
                   Corporate Information
                   </Link></li>
               </ul>
@@ -149,10 +149,9 @@ export const Navbar = () => {
                 <li className="heading-wrapper-navbar">Download Sections</li>
                 <li>
                   <a
-                    href="#"
-                    data-src="https://cdn11.bigcommerce.com/s-pl8vz9wzk5/product_images/uploaded_images/richloomcontract-warm.jpg?t=1578333794&_ga=2.88599385.376859109.1578324369-774153706.1570131906"
-                    onMouseOver={handleMouseOver}
-                    onMouseOut={handleMouseOut}
+                  target="_blank"
+                    href="./Pdf/Nestle PDF for Microsite_20.06.2024.pdf"
+                    onClick={toggleNav}
                   >
                     Download Full Report
                   </a>
@@ -160,10 +159,9 @@ export const Navbar = () => {
 
                 <li>
                   <a
-                    href="#second"
-                    data-src="https://cdn11.bigcommerce.com/s-pl8vz9wzk5/product_images/uploaded_images/richloomcontract-mochaglam.jpg?t=1578333787&_ga=2.88599385.376859109.1578324369-774153706.1570131906"
-                    onMouseOver={handleMouseOver}
-                    onMouseOut={handleMouseOut}
+                    href="./Pdf/Board’s Report.pdf"
+                   
+                    onClick={toggleNav}
                   >
                     Board’s Report
                   </a>
@@ -171,23 +169,20 @@ export const Navbar = () => {
 
                 <li>
                   <a
-                    href="#"
-                    data-src="https://cdn11.bigcommerce.com/s-pl8vz9wzk5/product_images/uploaded_images/richloomcontract-greys.jpg?t=1578333786&_ga=2.88599385.376859109.1578324369-774153706.1570131906"
-                    onMouseOver={handleMouseOver}
-                    onMouseOut={handleMouseOut}
+                  target="_blank"
+                    href="./Pdf/AUDITOR’S REPORT.pdf"
+                    onClick={toggleNav}
                   >
                     Auditor’s Report
                   </a>
                 </li>
 
                 <li>
-                  <a href="#">Annual Accounts</a>
+                  <a target="_blank"  onClick={toggleNav} href="./Pdf/Annual Accounts.pdf">Annual Accounts</a>
                 </li>
                 <li>
-                  <a href="#">CSR Activities</a>
-                </li>
-                <li>
-                  <a href="#">BRSR </a>
+                  <a  target="_blank"  onClick={toggleNav} href="./Pdf/BRSR.pdf">BRSR </a> <br />
+                  <a  target="_blank"  onClick={toggleNav} href="./Pdf/Nestle India Annexure.pdf">Annexure </a>
                 </li>
               </ul>
             </motion.div>

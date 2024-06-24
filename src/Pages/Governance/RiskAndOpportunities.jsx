@@ -63,7 +63,7 @@ that are offering the counterfeits for sale in the trade channels. Your Company 
 <p className='normal-paragraph-container'>
 Ensuring product quality is essential to uphold consumer's trust and Company’s reputation. In the present competitive market, even one instance of compromised product quality can have lasting impact on consumer trust, brand loyalty and the reputation of your Company.
 <br />
-Your Company prioritizes the safety of its consumers and quality of its products. It has a robust process in place to ensure quality and safety, from procuring raw materials for its products till their final production. The Nestlé quality policy can be accessed on https://www. nestle.com/sites/default/files/asset-library/documents/ library/documents/suppliers/quality_policy_nestle.pdf and encourages participation and promotion of quality responsibilities amongst employees and third parties through standards, education and training.
+Your Company prioritizes the safety of its consumers and quality of its products. It has a robust process in place to ensure quality and safety, from procuring raw materials for its products till their final production. The Nestlé quality policy can be accessed on <a style={{color:"#225e9e"}} target='_blank' href="https://www.nestle.com/sites/default/files/asset-library/documents/library/documents/suppliers/quality_policy_nestle.pdf">https://www.nestle.com/sites/default/files/asset-library/documents/library/documents/suppliers/quality_policy_nestle.pdf</a> and encourages participation and promotion of quality responsibilities amongst employees and third parties through standards, education and training.
 <br />
 A consumer complaint redressal team closely monitors and addresses consumer complaints on food safety and quality issues.
 </p>
@@ -97,8 +97,7 @@ have been set up to drive and deliver key projects. The five task forces are sus
 <p className='normal-paragraph-container'>
   India is home to the world's largest Gen Z population, known for their digital fluency and brand awareness. However, they are discerning consumers, seeking purpose driven brands that align with their social and ethical values. Over 10% of India’s ageing population is investing in themselves and in their personal well-being to lead better lives.
   Innovation continues to be an important element of your Company’s growth and your Company continues to invest in brands and launch new products in keeping with consumer demand. Your Company continues to expand the nutritional profile of its product portfolio
-by combining science with nutritimport BoardOfDirector from '../Boardsofdirector/BoardOfDirector';
-ion and offering wholesome food.
+by combining science with nutrition and offering wholesome food.
 
   </p>
 <br />

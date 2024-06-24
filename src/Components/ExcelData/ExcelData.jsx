@@ -78,7 +78,9 @@ const ExcelData = () => {
     return (
       <>
       <div className="table-container-main">
-        <h1 className="heading-main-common">10 - Year Financial Highlights</h1>
+      <h3 className="bold-heading-text text-black font-bold text-center">
+      10 - Year Financial Highlights
+        </h3>
         <div className="toggle-data-tab-hilights">
           <button
             className={`toggle-btn-tab${selectedTab === 'Results' ? ' active' : ''}`}
@@ -111,7 +113,7 @@ const ExcelData = () => {
         </div>
         
       </div>
-      {/* <StaticExcelData/> */}
+      <StaticExcelData/>
 </>
     );
   };

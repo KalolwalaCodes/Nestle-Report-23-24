@@ -12,19 +12,23 @@ const StaticExcelData = () => {
 
     return (
         <div className='table-container-main justify-center'>
-            <h1 className='greenish-heading-main'>Key financial ratios</h1>
-            <h3>As per the provisions of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, the key financial ratios are given below:</h3>
-            <div className="flex gap-3">
-                <div className='w-1/2'>Particulars</div>
-                <div className='w-2/4'>2023-24</div>
-                <div className='w-2/4'>2022</div>
+            <h3 className="bold-heading-text text-black font-bold text-center">
+            Key financial ratios
+        </h3>
+            <h3 className='big-medium-font my-3'>As per the provisions of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, the key financial ratios are given below:</h3>
+
+           
+            <div className="flex gap-3 sm:flex-col md:flex-row">
+                <div className='md:w-[60%] sm:w-full p-2' style={{background:"#f0f0f0" ,fontWeight:"700"}}>Particulars</div>
+                <div className='md:w-[20%] sm:w-full p-2' style={{background:"#f0f0f0" ,fontWeight:"700"}}>2023-24</div>
+                <div className='md:w-[20%] sm:w-full p-2' style={{background:"#f0f0f0" ,fontWeight:"700"}}>2022</div>
             </div>
             {
                 dataToFeedInExcel.map((data, index) => (
-                    <div className="flex gap-3" key={index}>
-                        <div className='w-1/2'>{data[0]}</div>
-                        <div className='w-2/4'>{data[1]}</div>
-                        <div className='w-2/4'>{data[2]}</div>
+                    <div className="flex gap-3 sm:flex-col md:flex-row" key={index}>
+                        <div className='md:w-[60%] sm:w-full bg-white mt-1 p-2'>{data[0]}</div>
+                        <div className='md:w-[20%] sm:w-full bg-white mt-1 p-2'>{data[1]}</div>
+                        <div className='md:w-[20%] sm:w-full bg-white mt-1 p-2'>{data[2]}</div>
                     </div>
                 ))
             }

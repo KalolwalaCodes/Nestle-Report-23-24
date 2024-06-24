@@ -2,7 +2,7 @@
     width: 100%;
     margin: auto;
     position: relative;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -52,7 +52,7 @@
     font-size: 40px;
     width: 80%;
   }
-  .wrapper-main-product-sec-image{
+  /* .wrapper-main-product-sec-image{
     height: 30vh;
-   }
+   } */
 }
