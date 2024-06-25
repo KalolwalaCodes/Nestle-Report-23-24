@@ -1,13 +1,14 @@
 import React from "react";
+import {motion} from 'framer-motion'
 
 const SalesAndExports = () => {
   return (
     <div className="wrapper-main-product-portfolio">
       <div className="chairman-message-wrapper">
-        <h3 className="bold-heading-text text-black font-bold">Sales</h3>
+        <motion.h3  initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}  className="bold-heading-text text-black font-bold">Sales</motion.h3>
         <div>
-          <p className="qus-para">RUrban</p>
-          <p className="normal-paragraph-container">
+          <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}}  className="qus-para">RUrban</motion.p>
+          <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="normal-paragraph-container">
             Your Company accelerated its growth journey in RUrban markets,
             supplemented by strong growth momentum in metro and mega cities.
             RUrban focus was enhanced by investing in robust distribution
@@ -34,7 +35,7 @@ const SalesAndExports = () => {
             training them. This initiative was first launched in Uttar Pradesh
             and has now scaled up to 25 states, engaging with over 1,900 women
             entrepreneurs.
-          </p>
+          </motion.p>
           {/* <div className='flex sm:flex-col lg:flex-row my-4'>
    <div className='sm:w-full lg:w-[60%] p-4 pl-0'>
    Our risk management process evaluates all significant business processes to identify risks. Of the risks identified, the following risks are considered the most relevant for your Company's business and performance.
@@ -44,8 +45,8 @@ const SalesAndExports = () => {
      <img className='w-[90%]' src="./governance/Artboard 44@3x.webp" alt="" />
    </div>
  </div> */}
-          <p className="qus-para">E-commerce</p>
-          <p className="normal-paragraph-container">
+          <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}}  className="qus-para">E-commerce</motion.p>
+          <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="normal-paragraph-container">
             Your Company’s e-commerce business continued to accelerate with
             significant growth in quick commerce along with click & mortar,
             driven by brands such as KITKAT, MAGGI Noodles and others.
@@ -58,9 +59,9 @@ const SalesAndExports = () => {
             <br />
             Quick commerce growth was aided by new user acquisition initiatives
             through targeted digital communication across various touchpoints.
-          </p>
-          <p className="qus-para">Direct-to-consumer</p>
-          <p className="normal-paragraph-container">
+          </motion.p>
+          <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}}  className="qus-para">Direct-to-consumer</motion.p>
+          <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="normal-paragraph-container">
             Your Company’s direct-to- consumer (D2C) e-commerce platform –
             www.mynestle.in is operational in Delhi-NCR and Bangalore. Launched
             with the aim of providing customers with curated product bundles and
@@ -72,23 +73,23 @@ const SalesAndExports = () => {
             platform's success in meeting the evolving needs and preferences of
             today's online shoppers.
             <br />
-          </p>
-          <p className="qus-para">Organized trade</p>
+          </motion.p>
+          <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="qus-para">Organized trade</motion.p>
 
-          <p className="normal-paragraph-container mb-4">
+          <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="normal-paragraph-container mb-4">
             The channel saw broad-based growth across product groups. Retail
             delivered double-digit growth driven by store expansion, shopper-
             centric promotion, participation in customer thematic properties,
             and merchandising initiatives.
-          </p>
-          <img src="./Sales/Artboard 540.webp" alt="" />
-          <h3 className="bold-heading-text text-black font-bold mt-4">
+          </motion.p>
+          <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  src="./Sales/Artboard 540.webp" alt="" />
+          <motion.h3 initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="bold-heading-text text-black font-bold mt-4">
             Exports
-          </h3>
-          <div className="w-full">
+          </motion.h3>
+          <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="w-full">
             <img className="w-full" src="./Sales/Artboard 520.webp" alt="" />
-          </div>
-          <div className="flex sm:flex-col lg:flex-row mt-4">
+          </motion.div>
+          <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4">
             <div className="sm:w-full md-w-[60%]">
               <p className="normal-paragraph-container mt-4">
                 Your Company’s export business delivered good growth.
@@ -118,7 +119,7 @@ const SalesAndExports = () => {
             <div className="sm:w-full md-w-[40%]">
               <img className="w-full" src="./Sales/Artboard 530.webp" alt="" />
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

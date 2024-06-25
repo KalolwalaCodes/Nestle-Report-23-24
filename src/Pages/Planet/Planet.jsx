@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductHero from '../../Components/Producthero/ProductHero'
 import GradientCard01 from '../../Components/GradientCard/GradientCard01'
-
+import {motion} from "framer-motion"
 const Planet = () => {
   return (
     <div className='wrapper-main-product-portfolio'>
@@ -14,13 +14,13 @@ const Planet = () => {
      />
    </div>
    <div className="chairman-message-wrapper">
-     <h3 className="bold-heading-text text-black font-bold">
+     <motion.h3 initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}  className="bold-heading-text text-black font-bold">
      Planet
-     </h3>
-     <p className="big-medium-font mt-6">
+     </motion.h3>
+     <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className="big-medium-font mt-6">
      Your Company’s sustainability commitment focuses on climate change, packaging, responsible sourcing, and water.
-        </p>
-    <div >
+        </motion.p>
+    <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} >
     <p className="qus-para">
     Collective action - packaging and waste management
         </p>
@@ -43,56 +43,58 @@ collaborate with government registered waste management agencies for the end-to-
             smallData={"MT of EPR"}
           />
       <img className='w-full' src="./Planets/Artboard 43@3x.webp" alt="" />
-    </div>
-    <p className="qus-para">
+    </motion.div>
+    <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className="qus-para">
     Sustainable sourcing - good food starts with good ingredients
-        </p>
+        </motion.p>
         <br />
-        <b >Dairy farming</b>
+        <motion.b initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} >Dairy farming</motion.b>
         <br />
-        <p className="normal-paragraph-container">Your Company engages with around 80,000 dairy farmers across Punjab, Haryana, Rajasthan and Jammu and Kashmir and is encouraging sustainable dairy farming practices by focusing on transformation and expansion, manure management, feed and fodder management and tree plantation across the value chain. Your Company demonstrated its unwavering commitment towards reducing emissions from the dairy farms through the 'Biodigester Project'. This technology transforms cattle manure
-        into clean biogas, reducing the carbon footprint of dairy farms. Approximately 109 large biodigesters and 3,325 small biodigesters have been installed in 24 districts across Punjab and Haryana. More than 550,000 trees were planted in dairy farms to sequester carbon.</p>
+        <motion.p className="normal-paragraph-container">
+        Your Company engages with around 80,000 dairy farmers across Punjab, Haryana, Rajasthan and Jammu and Kashmir and is encouraging sustainable dairy farming practices by focusing on transformation and expansion, manure management, feed and fodder management and tree plantation across the value chain. Your Company demonstrated its unwavering commitment towards reducing emissions from the dairy farms through the 'Biodigester Project'. This technology transforms cattle manure
+        into clean biogas, reducing the carbon footprint of dairy farms. Approximately 109 large biodigesters and 3,325 small biodigesters have been installed in 24 districts across Punjab and Haryana. More than 550,000 trees were planted in dairy farms to sequester carbon.
+        </motion.p>
         <GradientCard01
             bigData={"~80,000"}
             smallData={"Dairy farmers engaged"}
           />
-          <div className="video-popup-content mb-6">
+          <motion.div initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="video-popup-content mb-6">
           <iframe className='w-full h-[500px]' src="https://www.youtube.com/embed/IN0RbOIeL-Y?si=bKfuYsCYixyKeQBJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-       <b>Coffee farming</b>  
-       <p className="normal-paragraph-container">The NESCAFÉ Plan is an integrated strategy that leverages regenerative agricultural practices to address GHG emissions, soil health, water conservation and enhance biodiversity. As part of the NESCAFÉ Plan, your Company is engaged with more than 5,000 coffee farmers in sustainable agricultural practices and working towards improving their livelihood. A dedicated network of NESCAFÉ agronomists and supplier resources develop customized sustainability programmes to address the needs of the farmers.
+              </motion.div>
+       <motion.b initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}>Coffee farming</motion.b>  
+       <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">The NESCAFÉ Plan is an integrated strategy that leverages regenerative agricultural practices to address GHG emissions, soil health, water conservation and enhance biodiversity. As part of the NESCAFÉ Plan, your Company is engaged with more than 5,000 coffee farmers in sustainable agricultural practices and working towards improving their livelihood. A dedicated network of NESCAFÉ agronomists and supplier resources develop customized sustainability programmes to address the needs of the farmers.
 
-       </p>
+       </motion.p>
        <GradientCard01
             bigData={"5,000+"}
             smallData={"Coffee farmers engaged"}
           />
-        <div className="video-popup-content mb-6">
+        <motion.div initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="video-popup-content mb-6">
         <iframe className='w-full h-[500px]' src="https://www.youtube.com/embed/IN0RbOIeL-Y?si=VXSiGSCN0m5UcLoj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-              <div className='flex sm:flex-col lg:flex-row gap-8 mb-6'>
+              </motion.div>
+              <motion.div initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='flex sm:flex-col lg:flex-row gap-8 mb-6'>
                 <img className='sm:w-full lg:w-[48%]' src="./Planets/p54.webp" alt="" />
                 <img className='sm:w-full lg:w-[48%]' src="./Planets/p55.webp" alt="" />
-              </div>
-  <b>MAGGI spice plan</b>
-  <p className="normal-paragraph-container">Spices are a priority raw material for your Company. We are determined to responsibly source spices from transparent supply chains. Through the MAGGI Spice Plan, your Company locally sources 10 key spices from suppliers across nine states - black pepper, chilli, coriander, cumin, fennel, fenugreek, cardamon, ginger, turmeric and nutmeg are 100% traceable. The MAGGI Spice Plan has trained more than 1,500 spice farmers under the project.
-       </p>
+              </motion.div>
+  <motion.b initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} >MAGGI spice plan</motion.b>
+  <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">Spices are a priority raw material for your Company. We are determined to responsibly source spices from transparent supply chains. Through the MAGGI Spice Plan, your Company locally sources 10 key spices from suppliers across nine states - black pepper, chilli, coriander, cumin, fennel, fenugreek, cardamon, ginger, turmeric and nutmeg are 100% traceable. The MAGGI Spice Plan has trained more than 1,500 spice farmers under the project.
+       </motion.p>
        <br />     
-  <b>Rice project</b>
-  <p className="normal-paragraph-container">Your Company partnered with Bayer Crop Science,
+  <motion.b initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}>Rice project</motion.b>
+  <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">Your Company partnered with Bayer Crop Science,
   to embark on a transformative journey to address the critical issue of greenhouse gas (GHG) emissions in paddy cultivation. Besides working on reduction in GHG emissions, the pilot project also aims to improve soil health, protect biodiversity, and support local farmers in dealing with climate change. The project, has registered more than 290 farmers across 31 villages in Jabalpur in Madhya Pradesh and Nizamabad in Telangana.
-       </p>
+       </motion.p>
        <GradientCard01
             bigData={"1,500+"}
             smallData={"Spice farmers engaged"}
           />
-          <p className='qus-para'>Greener deliveries through sustainable logistics</p>
-          <img className='w-full' src="./Planets/Artboard 41@3x.webp" alt="" />
-          <p className='normal-paragraph-container mt-4'>Your Company joined forces with 14 other companies as part of the Zero Emission Emerging Markets initiative, a collaborative effort to accelerate the electrification of trucks in the country. By integrating more CNG/LNG and electric vehicles into the fleet, your Company has reduced its reliance on traditional fuels.
+          <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='qus-para'>Greener deliveries through sustainable logistics</motion.p>
+          <motion.img initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='w-full' src="./Planets/Artboard 41@3x.webp" alt="" />
+          <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='normal-paragraph-container mt-4'>Your Company joined forces with 14 other companies as part of the Zero Emission Emerging Markets initiative, a collaborative effort to accelerate the electrification of trucks in the country. By integrating more CNG/LNG and electric vehicles into the fleet, your Company has reduced its reliance on traditional fuels.
             <br />
           There has been a notable rise in railway usage from 0.2% to 6% over the past three years, and an enhanced payload utilization from 90.3% to 93.7% between 2021 and 2023. This has optimized logistics by reducing empty truck journeys and emissions.
-          </p>
-          <div className="flex sm:flex-col lg:flex-row gap-4 mt-6 " >
+          </motion.p>
+          <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row gap-4 mt-6 " >
    <div className='sm:w-full lg:w-[50%]'>
     <b>Increase in railway usage</b>
     <img className='w-full  mt-4' src="./Planets/Screenshot 2024-06-19 at 12.56.25 PM.png" alt="" />
@@ -102,8 +104,8 @@ collaborate with government registered waste management agencies for the end-to-
    <img className='w-full mt-4' src="./Planets/Screenshot 2024-06-19 at 12.56.49 PM.png" alt="" />
    </div>
 
-          </div>
-          <div className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4" style={{background:"rgb(246 245 244)"}}>
+          </motion.div>
+          <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4" style={{background:"rgb(246 245 244)"}}>
    <div className='sm:w-full lg:w-[60%]'>
 <p className='qus-para'>Manufacturing gets smarter: cuts waste, boosts sustainability</p>
    <p className='normal-paragraph-container'>
@@ -116,8 +118,8 @@ collaborate with government registered waste management agencies for the end-to-
    Continuous efforts have been made at the factories to minimize the consumption of natural resources and reduce water, energy, and carbon emissions while maximizing production volumes. Over the last 15 years (2008-2024), your Company has, on an average, reduced energy usage by around 29% per ton of production, water usage by around 46% per ton of production, generation of wastewater by around 60% per ton of production, and specific direct and indirect greenhouse gas emissions by 61% per ton of production.</p>
    </div>
 
-          </div>
-          <div className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4" style={{background:"rgb(246 245 244)"}} >
+          </motion.div>
+          <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4" style={{background:"rgb(246 245 244)"}} >
    <div className='sm:w-full lg:w-[16%]'>
     <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[50%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.57.34 PM.png" alt="" />
    </div>
@@ -136,9 +138,10 @@ collaborate with government registered waste management agencies for the end-to-
   <p className='normal-paragraph-container mt-2'>A significant step has been taken towards water conservation projects across all factories, reducing water withdrawal intensity by 27.4% compared to the 2018 baseline.</p>
   <img style={{mixBlendMode:"multiply"}} className='w-[80%] mt-4' src="./Planets/Screenshot 2024-06-19 at 12.59.04 PM.png" alt="" />
    </div>
-          </div>
-          <p className='normal-paragraph-container'>Your Company is harnessing technology to reduce
-          its reliance on groundwater. Through the successful implementation of Zer'Eau technology in Moga and Samalkha factories, water extracted from milk is recycled to reduce groundwater consumption every year.</p>
+          </motion.div>
+          <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='normal-paragraph-container'>Your Company is harnessing technology to reduce
+          its reliance on groundwater. Through the successful implementation of Zer'Eau technology in Moga and Samalkha factories, water extracted from milk is recycled to reduce groundwater consumption every year.
+          </motion.p>
      </div>
  </div>
   )

@@ -1,11 +1,12 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import { LayoutGrid } from "./Layout";
+import TextAnimation01 from "../../Components/AnimateText/AnimatedText01";
 
 export function ProductPortfolio() {
   return (
     <div className="h-screen py-20 w-ful">
-     <h3 className='bold-heading-text text-black font-bold text-center'>Product portfolio</h3>
+     <h3 className='bold-heading-text text-black font-bold text-center'><TextAnimation01 text={'Product portfolio'}/> </h3>
       <LayoutGrid cards={cards} />
     </div>
   );

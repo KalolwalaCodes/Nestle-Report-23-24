@@ -1,7 +1,7 @@
 import React from 'react'
-import ProductHero from '../../Components/Producthero/ProductHero'
-import GradientCard01 from '../../Components/GradientCard/GradientCard01'
-
+import ProductHero from '../../Components/Producthero/ProductHero';
+import GradientCard01 from '../../Components/GradientCard/GradientCard01';
+import {motion} from 'framer-motion';
 const Patnerships = () => {
   return (
     <div className='wrapper-main-product-portfolio'>
@@ -14,22 +14,22 @@ const Patnerships = () => {
      />
    </div>
    <div className="chairman-message-wrapper">
-     <h3 className="bold-heading-text text-black font-bold">
+     <motion.h3 initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="bold-heading-text text-black font-bold">
      Partnerships
-     </h3>
-     <p className="big-medium-font mt-6">
+     </motion.h3>
+     <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="big-medium-font mt-6">
      Your Company recognizes the importance of collaboration and
      has built a strong network of partners. This includes over 280,000 farmers, 4,600 suppliers, 10,000 distributors and re-distributors and 5.2 million retail outlets. This network, along with nine factories and 22 co-manufacturers and co-packers, produces high-quality products while delivering exceptional value to consumers.
-        </p>
+        </motion.p>
     <div >
 
-       <p className="normal-paragraph-container">
+       <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">
        Your Company's approach to supply chain management is anchored in three fundamental pillars: a forward- looking workforce, digital maturity and strong partnerships across the value chain. Prioritizing collaboration and continuous improvement ensures your Company’s supply chain is resilient, agile and adept
 in meeting challenges in an interconnected world.
 <br />
 Product quality is paramount, from sourcing ingredients till manufacturing. Your Company adheres to the Nestlé Responsible Sourcing Standard (NRSS) in its supplier selection process. This stringent standard ensures that suppliers uphold ethical practices
 
-       </p>
+       </motion.p>
        <GradientCard01
             bigData={"4,600+"}
             smallData={"Suppliers"}
@@ -38,7 +38,7 @@ Product quality is paramount, from sourcing ingredients till manufacturing. Your
             bigData={"10,000+"}
             smallData={"Distributors and re-distributors"}
           />
-       <p className="normal-paragraph-container">
+       <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">
        in business integrity, human rights, health and safety and environmental responsibility throughout their operations, production processes and sourcing practices.
 <br />
 Your Company sources more than 90% of raw materials locally. These include commodities such as milk, coffee, spices etc. Being deeply rooted in science and technology, your Company extensively uses technology, while partnering with farmers and other suppliers to ensure that the raw materials are sourced sustainably, with minimal impact on the environment. Your Company has trained dairy and coffee farmers on environmental sustainability.
@@ -50,9 +50,9 @@ has ensured that your Company's products are available even in the remotest corn
 of Tanot in the west, and from the southernmost tip of Kanyakumari to remote areas like Koloriang in the north-east.
 <br />
 Your Company has been modernizing distribution centers to ensure faster servicing of customers and consumers.
-       </p>
+       </motion.p>
     </div>
-    <div className="flex sm:flex-col lg:flex-row mt-4 lg:gap-10 p-4" style={{background:"rgb(246 245 244)"}}>
+    <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 lg:gap-10 p-4" style={{background:"rgb(246 245 244)"}}>
     <div className='sm:w-full lg:w-[60%]'>
         <img src="./Patnerships/Artboard 42@3x.webp" alt="" />
     </div>
@@ -60,7 +60,7 @@ Your Company has been modernizing distribution centers to ensure faster servicin
         <img  src="./Patnerships/p51q.webp" alt="" />
     </div>
 
-    </div>
+    </motion.div>
      </div>
  </div>
   )

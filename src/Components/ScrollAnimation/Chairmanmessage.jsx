@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion, MotionValue } from "framer-motion";
 import { Link } from "react-router-dom";
+import TextAnimation01 from "../AnimateText/AnimatedText01";
 export const ContainerScroll = ({ titleComponent, children }) => {
   const containerRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -55,7 +56,7 @@ export const Header = ({ translate, titleComponent }) => {
       }}
       className="div max-w-5xl mx-auto text-center bold-heading-text text-black font-bold"
     >
-      Chairman's message
+     <TextAnimation01 text={"Chairman's message"} />
     </motion.div>
   );
 };

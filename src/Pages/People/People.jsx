@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductHero from '../../Components/Producthero/ProductHero'
 import GradientCard01 from '../../Components/GradientCard/GradientCard01'
-
+import {motion} from 'framer-motion'
 const People = () => {
   return (
     <div className='wrapper-main-product-portfolio'>
@@ -15,11 +15,11 @@ const People = () => {
      />
    </div>
    <div className="chairman-message-wrapper">
-     <h3 className="bold-heading-text text-black font-bold">
+     <motion.h3 initial={{opacity:0,x:"-10px"}} whileInView={{opacity:1,x:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="bold-heading-text text-black font-bold">
      People
-     </h3>
-     <img className='w-full' src="./People/Artboard 40@3x.webp" alt="" />
-    <div style={{background:"rgb(246 245 244)"}} className="flex sm:flex-col lg:flex-row p-4 mt-3">
+     </motion.h3>
+     <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className='w-full' src="./People/Artboard 40@3x.webp" alt="" />
+    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} style={{background:"rgb(246 245 244)"}} className="flex sm:flex-col lg:flex-row p-4 mt-3">
     <div className='sm:w-full lg:w-[70%]'>
     <p className="qus-para">
      Elevating the onboarding experience
@@ -47,8 +47,8 @@ and initiatives like 'Awareness Builds Consciousness' have fostered a more suppo
     <div className='sm:w-full lg:w-[30%] p-4'>
         <img  src="./People/p47q.webp" alt="" />
     </div>
-    </div>
-    <div className="flex sm:flex-col lg:flex-row mt-4 p-4" style={{background:"rgb(246 245 244)"}} >
+    </motion.div>
+    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="flex sm:flex-col lg:flex-row mt-4 p-4" style={{background:"rgb(246 245 244)"}} >
     <div className='sm:w-full lg:w-[70%]'>
     <p className="qus-para">
     Encouraging gender diversity
@@ -77,27 +77,28 @@ perspectives, energy, and innovative ideas.
         <img  src="./People/p48q2.webp" alt="" />
     </div>
 
-    </div>
-     <p className="qus-para">
+    </motion.div>
+     <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="qus-para">
      Building a digi-able workforce
-     </p>
-       <p className="normal-paragraph-container">
+     </motion.p>
+       <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">
        Recognizing the increasing importance of digital fluency, your Company prioritises digi-ability
-and digi-integration within its development strategy. This translates into a range of digital learning
+and digi-integration within its deimport { motion } from 'framer-motion';
+velopment strategy. This translates into a range of digital learning
 tools, from leveraging platforms
 like LinkedIn (used by over 3600+ employees) to offering app-based learning specifically designed for 1,500+ strong field force, equipping them with the necessary
 digital skills.
-       </p>
-     <p className="qus-para">
+       </motion.p>
+     <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="qus-para">
      Mentoring and employee development
-     </p>
-       <p className="normal-paragraph-container">
+     </motion.p>
+       <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">
        Your Company has been prioritising mentoring through its strong internal mentor network, which comprises 100 members. This network helps support talent in all aspects of their professional life and also provides
 a sounding board for innovators, aspirants and new leaders. To ensure a productive and growth-oriented partnership, a guided, democratic, and digitally-enabled process is used to match talent with the right mentor for their journey. In addition to mentoring, your Company also focuses on coaching its employees. By providing a strong professional coaching infrastructure that consists of 50+ experts, your Company
 helps employees tackle a range of development challenges to arrive
 at unique solutions that suit their customised needs. This coaching process is conducted through an external, neutral lens to ensure that employees receive unbiased and effective guidance.
-       </p>
-       <div className="flex sm:flex-col lg:flex-row mt-4 p-4" style={{background:"rgb(246 245 244)"}}>
+       </motion.p>
+       <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 p-4" style={{background:"rgb(246 245 244)"}}>
        <div className='sm:w-full lg:w-[70%]'>
      <p className="qus-para">
      Leadership development programmes
@@ -112,8 +113,8 @@ large teams, and those stepping into CXO roles. The learning solutions are a com
        <div className='sm:w-full lg:w-[20%] p-4 m-auto'>
         <img  src="./People/p48q3.webp" alt="" />
     </div>
-    </div>
-       <div className="flex sm:flex-col lg:flex-row mt-4 p-4"style={{background:"rgb(246 245 244)"}}>
+    </motion.div>
+       <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 p-4"style={{background:"rgb(246 245 244)"}}>
        <div className='sm:w-full lg:w-[70%]'>
      <p className="qus-para">
      Investing in employee well-
@@ -137,8 +138,8 @@ by introducing a new Nestlé Policy against violence, discrimination, and harass
         <img src="./People/Artboard 39@3x.webp" alt="" />
     </div>
     
-    </div>
-    <div className="flex sm:flex-col lg:flex-row mt-4 p-4" style={{background:"rgb(246 245 244)"}}>
+    </motion.div>
+    <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 p-4" style={{background:"rgb(246 245 244)"}}>
     <div className='sm:w-full lg:w-[60%] m-auto'>
     <img  src="./People/p49q4.webp" alt="" />
     </div>
@@ -147,7 +148,7 @@ by introducing a new Nestlé Policy against violence, discrimination, and harass
         <img src="./People/p49q5.webp" alt="" />
         
     </div>
-    </div>
+    </motion.div>
      </div>
  </div>
   )
