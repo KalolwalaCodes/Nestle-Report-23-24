@@ -17,6 +17,7 @@ import { ScaleIn } from '../../Components/AnimationVarient';
 import { InfiniteMovingCardsNew } from '../../Components/CardComponent/InfiniteMovingCardNew';
 import BodSlider from '../../Components/Boardofdirector/BoardOfDirector';
 import TextAnimation01 from '../../Components/AnimateText/AnimatedText01';
+import BoardOfDirectorNew from '../../Components/Boardofdirector/BoardOfDirectorNew';
 const LandingPage = () => {
   const words = ['Purpose', 'People', 'Partnerships', 'Performance', 'Planet'];
     const [visibleWordIndex, setVisibleWordIndex] = useState(0);
@@ -153,7 +154,8 @@ const LandingPage = () => {
           return <BoardOfDirector data={bod} />;
         })}
       </div> */}
-      <BodSlider/>
+      {/* <BodSlider/> */}
+      <BoardOfDirectorNew/>
       <div className="main-section-03  w-[86%] m-auto">
         <ContainerScroll />
       </div>
