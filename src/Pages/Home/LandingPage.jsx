@@ -12,10 +12,8 @@ import {
 import { InfiniteMovingCards } from "../../Components/CardComponent/NewCardComponent";
 import { ContainerScroll } from "../../Components/ScrollAnimation/Chairmanmessage";
 import { ProductPortfolio } from "../Productprotfolio/ProductProtfolio";
-import BoardOfDirector from "../Boardsofdirector/BoardOfDirector";
 import { ScaleIn } from '../../Components/AnimationVarient';
 import { InfiniteMovingCardsNew } from '../../Components/CardComponent/InfiniteMovingCardNew';
-import BodSlider from '../../Components/Boardofdirector/BoardOfDirector';
 import TextAnimation01 from '../../Components/AnimateText/AnimatedText01';
 import BoardOfDirectorNew from '../../Components/Boardofdirector/BoardOfDirectorNew';
 const LandingPage = () => {
@@ -104,7 +102,7 @@ const LandingPage = () => {
           alt=""
         />
         <div className="laanding-page-text-container ">
-          <TextAnimation text={"Our Path to "} />
+          <TextAnimation text={"Our Path to progress "} />
           <br />
           <span className="words-wrapper">
                                         {words.map((word, index) => (
@@ -149,14 +147,14 @@ const LandingPage = () => {
       <h3 className="bold-heading-text text-black font-bold text-center my-8">
        <TextAnimation01 text={'Board of Directors'} />
       </h3>
-      {/* <div className="bod-main-container flex flex-wrap gap-4 w-[86%] m-auto justify-center mb-6 ">
+      {/* <div className="bod-main-container flex flex-wrap gap-4 w-[80%] m-auto justify-center mb-6 ">
         {bodArray.map((bod) => {
           return <BoardOfDirector data={bod} />;
         })}
       </div> */}
       {/* <BodSlider/> */}
       <BoardOfDirectorNew/>
-      <div className="main-section-03  w-[86%] m-auto">
+      <div className="main-section-03  w-[80%] m-auto">
         <ContainerScroll />
       </div>
       <div className="section-main-0002 flex flex-col justify-center align-middle">

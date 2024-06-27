@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className=" shadow m-4 mx-0 w-full   footer-main-nav">
-    <div className="w-[86%] mx-auto max-w-screen-xl p-4  md:flex md:items-center md:justify-between">
+    <div className="w-[80%] mx-auto max-w-screen-xl p-4  md:flex md:items-center md:justify-between">
       <span className="span-footer">© 2024 <a href="https://www.nestle.in/" className="hover:underline">Nestlé
       </a>. All Rights Reserved.
     </span>

@@ -12,26 +12,34 @@ const ProductPortfolioMain = () => {
           heading={"Nutrition in a nutshell"}
           img2={"./ProductPortfolio/Artboard 8@3x.webp"}
           url
+          heading2={' Milk Products and Nutrition'}
         />
       </div>
       <div className="chairman-message-wrapper">
-        <h3 className="bold-heading-text text-black font-bold">
-          Milk Products and Nutrition
-        </h3>
-        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut"}}  className="w-full" src="./ProductPortfolio/Artboard 9@3x.webp" alt="" />
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="big-medium-font mt-6">
+        <div className="flex w-100 sm:flex-col md:flex-row gap-8">
+        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut"}}  className="sm:w-full md:w-[70%]" src="./ProductPortfolio/Artboard 9@3x.webp" alt="" />
+        <div>
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="big-medium-font">
           The Milk Products and Nutrition business registered strong growth,
           despite fluctuations in commodity prices, which were addressed through
           cost optimization and value chain efficiencies. The performance of
           Milk Products and Nutrition was further bolstered by e-commerce.
         </motion.p>
-        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}  className="flex sm:flex-col md:flex-row gap-6 mt-4 justify-between p-4" style={{background:"rgb(246 245 244)"}}>
-          <p className="normal-paragraph-container sm:w-full md:w-[70%]">
-            The Ready-To-Drink (RTD) portfolio saw strong growth in both in-home
-            and out-of-home channels. The 'Thoda Aur Macha' campaign celebrating
-            Gen Z heroes, contributed to NESCAFÉ RTD's increased visibility.
-            <br />
-            <br />
+        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}  className="flex sm:flex-col md:flex-row gap-6 justify-between normal-paragraph-container mt-3" >
+        The Ready-To-Drink (RTD) portfolio saw strong growth in both in-home
+        and out-of-home channels. The 'Thoda Aur Macha' campaign celebrating
+        Gen Z heroes, contributed to NESCAFÉ RTD's increased visibility.
+        </motion.div>
+        </div>
+       
+
+
+        </div>
+        
+        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}  className="flex sm:flex-col md:flex-row gap-6 mt-4 justify-between p-4" >
+          <div className="flex sm:flex-col md:flex-row gap-8">
+       <div className="sm:w-full md:w-[50%]">
+       <p className="normal-paragraph-container">
             Nestlé a+ Masala Millet, made with bajra and barley, was launched in
             Delhi- NCR and Mumbai and subsequently expanded to other cities
             across key geographies. MILO for teenagers was introduced in Tamil
@@ -42,13 +50,13 @@ const ProductPortfolioMain = () => {
             />
           </p>
           <img
-            className="sm:w-full md:w-[30%]"
+            className="w-[80%]"
             src={"./ProductPortfolio/Artboard 10@3x.webp"}
             alt=""
           />
-        </motion.div>
-        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="flex sm:flex-col md:flex-row gap-6 mt-4 justify-between p-4" style={{background:"rgb(246 245 244)"}}>
-          <p className="normal-paragraph-container sm:w-full md:w-[70%]">
+       </div>
+       <div className="sm:w-full md:w-[50%]">
+       <p className="normal-paragraph-container sm:w-full">
             MILKMAID's engagement on digital platforms increased, and the
             website, milkmaid.in, achieved a remarkable milestone by attracting
             over 7.2 million visits, demonstrating the growing demand for
@@ -60,12 +68,19 @@ const ProductPortfolioMain = () => {
             />
           </p>
           <img
-            className="sm:w-full md:w-[30%]"
+            className="w-[80%]"
             src={"./ProductPortfolio/Artboard 11@3x.webp"}
             alt=""
           />
+       </div>
+          </div>
+          
+         
         </motion.div>
-        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="flex sm:flex-col md:flex-row gap-6 mt-4 justify-between p-4" style={{background:"rgb(246 245 244)"}}>
+        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="flex sm:flex-col md:flex-row gap-6 mt-4 justify-between p-4" >
+          
+        </motion.div>
+        <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="flex sm:flex-col md:flex-row gap-6 mt-4 justify-between p-4" >
           <p className="normal-paragraph-container sm:w-full md:w-[70%]">
           Your Company believes that breastmilk provides the best nutrition for babies and every child should be exclusively breastfed for six months, followed by the introduction of age- appropriate complementary feeding and continued breastfeeding until two years and beyond.
           <br />
@@ -92,18 +107,19 @@ const ProductPortfolioMain = () => {
           heading={"Enriching lives through nutrition"}
           img2={"./ProductPortfolio/Artboard 8@3x.webp"}
           url
+          heading2={' Nestlé Health Science'}
         />
       </div>
       <div className="chairman-message-wrapper">
-        <h3 className="bold-heading-text text-black font-bold">
-          Nestlé Health Science
-        </h3>
-        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut"}} className="w-full" src="./ProductPortfolio/Artboard 13@3x.webp" alt="" />
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font mt-6">
+        <div className="flex sm:flex-col md:flex-row gap-8 mb-3">
+        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut"}} className="sm:w-full md:w-[70%] " src="./ProductPortfolio/Artboard 13@3x.webp" alt="" />
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font ">
           The Health Science business consisting of a portfolio of science-based
           medical and consumer healthcare nutrition products, launched three
           innovations, customised to improve health and quality of life.
         </motion.p>
+        </div>
+        
         <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="normal-paragraph-container ">
           Thicken Up Clear was launched for patients with dysphagia. It has been
           clinically proven to improve swallowing safety and efficacy. The
@@ -142,20 +158,21 @@ const ProductPortfolioMain = () => {
           img2={"./ProductPortfolio/Artboard 8@3x.webp"}
           url
           overlay
+          heading2={' Prepared Dishes and Cooking Aids'}
         />
       </div>
       <div className="chairman-message-wrapper">
-        <h3 className="bold-heading-text text-black font-bold">
-          Prepared Dishes and Cooking Aids
-        </h3>
-        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="w-full" src="./ProductPortfolio/Artboard 15@3x.webp" alt="" />
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font mt-6">
+        <div className="flex sm:flex-col md:flex-row gap-8 mb-5">
+        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="w-[70%]" src="./ProductPortfolio/Artboard 15@3x.webp" alt="" />
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font">
           The Prepared Dishes and Cooking Aids business recorded a strong growth
           momentum. This was aided by a healthy balance of product mix, pricing
           and volume growth in MAGGI Noodles and MAGGI Masala-ae-Magic,
           supported by strong consumer engagement and market presence with media
           campaigns and attractive consumer activations.
         </motion.p>
+        </div>
+        
         <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="normal-paragraph-container ">
           Exciting new products like MAGGI Oats Noodles with Millet Magic were
           launched to cater to the growing consumer demand for taste and
@@ -188,7 +205,8 @@ const ProductPortfolioMain = () => {
           delight, strong execution, and commitment to sustainability
           contributed to the sale of over six billion servings of MAGGI during
           the year, making India the largest Nestlé market for MAGGI worldwide.
-          <GradientCard01
+         <div className="flex sm:flex-col md:flex-row gap-8">
+         <GradientCard01
             bigData={"6 billion+"}
             smallData={"serves of MAGGI sold"}
           />
@@ -196,6 +214,8 @@ const ProductPortfolioMain = () => {
             bigData={"30.4%"}
             smallData={"Contribution to total sales"}
           />
+         </div>
+         
         </motion.p>
       </div>
       <div className="pp-sec-01">
@@ -205,19 +225,23 @@ const ProductPortfolioMain = () => {
           img2={"./ProductPortfolio/Artboard 8@3x.webp"}
           url
           overlay
+          heading2={'Breakfast Cereals'}
         />
       </div>
       <div className="chairman-message-wrapper">
-        <h3 className="bold-heading-text text-black font-bold">
-          Breakfast Cereals
-        </h3>
-        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="w-full" src="./ProductPortfolio/Artboard 18@3x.webp" alt="" />
+        {/* <h3 className="bold-heading-text text-black font-bold">
+          
+        </h3> */}
+        <div className="flex sm:flex-col md:flex-row gap-8">
+        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="sm:w-full md:w-[70%] " src="./ProductPortfolio/Artboard 18@3x.webp" alt="" />
         <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font mt-6">
           Your Company’s Breakfast Cereals business continued to drive
           penetration with a focus on innovation and exciting new offerings. It
           unveiled two distinct cereals that were designed to cater to a broader
           array of breakfast preferences.
         </motion.p>
+        </div>
+        
         <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="flex sm:flex-col md:flex-row gap-6 mt-4 justify-between">
           <p className="normal-paragraph-container sm:w-full md:w-[70%]">
             KOKO KRUNCH incorporated local grains like Jowar, blending the
@@ -243,14 +267,18 @@ const ProductPortfolioMain = () => {
           img2={"./ProductPortfolio/Artboard 20@3x.webp"}
           url
           overlay
+          heading2={'Pet Care'}
         />
       </div>
       <div className="chairman-message-wrapper">
-        <h3 className="bold-heading-text text-black font-bold">Pet Care</h3>
-        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="w-full" src="./ProductPortfolio/Artboard 21@3x.webp" alt="" />
-        <p className="big-medium-font mt-6">
+        {/* <h3 className="bold-heading-text text-black font-bold"></h3> */}
+        <div className="flex sm:flex-col md:flex-row gap-8">
+          <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="sm:w-full md:w-[70%]" src="./ProductPortfolio/Artboard 21@3x.webp" alt="" />
+        <p className="big-medium-font ">
         The Pet care portfolio which is a part of Prepared Dishes and Cooking Aids business continued to demonstrate its unwavering commitment to enriching the lives of pets. Innovative new products coupled with a strong focus on e-commerce, enabled the portfolio to reach more pet families.
         </p>
+        </div>
+        
         <br />
         <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="normal-paragraph-container ">
           The portfolio offers a comprehensive array of options catering to both
@@ -283,18 +311,21 @@ const ProductPortfolioMain = () => {
           img2={""}
           url
           overlay
+          heading2={' Confectionery'}
         />
       </div>
       <div className="chairman-message-wrapper">
-        <h3 className="bold-heading-text text-black font-bold">
-          Confectionery
-        </h3>
-        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="w-full" src="./ProductPortfolio/Artboard 23@3x.webp" alt="" />
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font mt-6">
+        {/* <h3 className="bold-heading-text text-black font-bold">
+         
+        </h3> */}
+        <div className="flex sm:flex-col md:flex-row gap-8">
+        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className=" sm:w-full md:w-[60%]" src="./ProductPortfolio/Artboard 23@3x.webp" alt="" />
+        <div>
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font">
           Confectionery was one of the main drivers of growth for your Company.
         </motion.p>
         <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="normal-paragraph-container ">
-          The growth was fueled by the launch of new products, increased media
+        The growth was fueled by the launch of new products, increased media
           exposure, a more extensive and expanding distribution network, and
           innovative brand activations which were all instrumental in the
           portfolio's success.
@@ -306,6 +337,14 @@ const ProductPortfolioMain = () => {
             bigData={"16.5%"}
             smallData={"Contribution to total sales"}
           />
+        </motion.p>
+        
+        
+        </div>
+        
+        </div>
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="normal-paragraph-container ">
+          
           <br />
           This success can be attributed to innovative launches like KITKAT
           Butterscotch and a premium range with Dark, Rich, and Caramel options.
@@ -336,6 +375,7 @@ const ProductPortfolioMain = () => {
             smallData={"KITKAT fingers sold"}
           />
         </motion.p>
+        
       </div>
       <div className="pp-sec-01">
         <ProductHero
@@ -344,25 +384,33 @@ const ProductPortfolioMain = () => {
           img2={""}
           url
           overlay
+          heading2={' Powdered and Liquid Beverages'}
         />
       </div>
       <div className="chairman-message-wrapper">
-        <h3 className="bold-heading-text text-black font-bold">
-          Powdered and Liquid Beverages
-        </h3>
-        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="w-full" src="./ProductPortfolio/Artboard 24@3x.webp" alt="" />
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font mt-6">
+       <div className="flex sm:flex-col md:flex-row gap-8">
+        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="sm:w-full md:w-[60%]" src="./ProductPortfolio/Artboard 24@3x.webp" alt="" />
+        <div>
+           <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font ">
           The Powdered and Liquid Beverages business recorded robust performance
           by staying focused on recruitment and creating more occasions for
           coffee consumption.
         </motion.p>
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="normal-paragraph-container ">
-          The in-home portfolio of NESCAFÉ, comprising NESCAFÉ Classic, NESCAFÉ
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="normal-paragraph-container "> 
+        The in-home portfolio of NESCAFÉ, comprising NESCAFÉ Classic, NESCAFÉ
           Sunrise, and NESCAFÉ GOLD, delivered strong double- digit growth. This
           resulted in the highest-ever yearly increase in household penetration
           and market share in 2023, further strengthening NESCAFÉ's market
           leadership. NESCAFÉ has introduced its coffee to over 30 million
           Indian households in the past seven years.
+        </motion.p>
+        
+        </div>
+       
+       </div>
+        
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="normal-paragraph-container ">
+         
           {/* <br /> */}
           {/* KITKAT emerged as the star performer, by not only delivering strong
           growth but making Nestlé India the second largest market for the brand
@@ -388,8 +436,9 @@ const ProductPortfolioMain = () => {
           Unprecedented green coffee price inflation was mitigated through proactive strategies that improved efficiency across the entire value chain.
           <br /> 
           Your Company continued to
-work closely with coffee farmers in Karnataka, Tamil Nadu, and Kerala through the NESCAFÉ Plan, towards developing good agricultural practices, sustainable management of landscapes, and enhancing biodiversity in coffee farms.
-          <GradientCard01
+         work closely with coffee farmers in Karnataka, Tamil Nadu, and Kerala through the NESCAFÉ Plan, towards developing good agricultural practices, sustainable management of landscapes, and enhancing biodiversity in coffee farms.
+        <div className="flex sm:flex-col md:flex-row gap-8">
+        <GradientCard01
             bigData={"15 billion+"}
             smallData={"Cups of coffee"}
           />
@@ -397,7 +446,7 @@ work closely with coffee farmers in Karnataka, Tamil Nadu, and Kerala through th
             bigData={"12.4%"}
             smallData={"Contribution to total sales"}
           />
-          <br />
+        </div>
         </motion.p>
       </div>
       <div className="pp-sec-01">
@@ -407,24 +456,35 @@ work closely with coffee farmers in Karnataka, Tamil Nadu, and Kerala through th
           img2={""}
           url
           overlay
+          heading2={'Out-of-Home'}
         />
       </div>
       <div className="chairman-message-wrapper">
-        <h3 className="bold-heading-text text-black font-bold">
-        Out-of-Home
-        </h3>
+        {/* <h3 className="bold-heading-text text-black font-bold">
+        
+        </h3> */}
         <div className="flex gap-8 w-100 sm:flex-col md:flex-row">
-        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} src="./ProductPortfolio/Artboard 26@3x.webp" alt="" />
+        <motion.img  initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} src="./ProductPortfolio/Artboard 26@3x.webp" alt="" />
         < motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} src="./ProductPortfolio/Artboard 27@3x.webp" alt="" />
+        <div>
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font">
+       
+       The Out-of-Home business reported strong growth, propelled by portfolio transformation and premiumization, channel prioritization and new customer acquisition.
+       </motion.p>
+       <br />
+       <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}  className="normal-paragraph-container  sm:w-full ">
+       This business continued to accelerate rapidly by focusing on relevant innovations and robust penetration in emerging channels. Geographical expansion beyond metros into Tier-1 towns, tapping tourist hot spots and focusing on new geographical clusters also contributed to growth.
+
+       </motion.p>
+
         </div>
         
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="big-medium-font mt-6">
-        The Out-of-Home business reported strong growth, propelled by portfolio transformation and premiumization, channel prioritization and new customer acquisition.
-        </motion.p>
-        <br />
-        <div className="flex sm:flex-col md:flex-row gap-8 p-4" style={{background:"rgb(246 245 244)"}}>
+        </div>
+        
+        
+
+        <div className="flex sm:flex-col md:flex-row gap-8 p-4 mt-4" >
         <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}  className="normal-paragraph-container md:w-[70%] sm:w-full ">
-        This business continued to accelerate rapidly by focusing on relevant innovations and robust penetration in emerging channels. Geographical expansion beyond metros into Tier-1 towns, tapping tourist hot spots and focusing on new geographical clusters also contributed to growth.
           <br />
           The Out-of-Home business was one of the fastest growing business of your Company in India during the period under review.
           <br />
@@ -439,9 +499,9 @@ Thai and Coastal cuisines.
 
 
         </motion.p>
-        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="md:w-[30%]  sm:w-full h-[400px]" src="./ProductPortfolio/Artboard 25@3x.webp" alt="" />
+        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="md:w-[50%]  sm:w-full mt-6" src="./ProductPortfolio/Artboard 25@3x.webp" alt="" />
         </div>
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container p-4" style={{background:"rgb(246 245 244)"}}>Your Company's ‘Retail ONE' initiative fostered entrepreneurship by setting up over 830 branded kiosks such as NESCAFÉ Corners, MAGGI Hotspots, KITKAT Break Zones in educational institutes, hospital food zones, malls and airports. These kiosks are operator funded, and created employment opportunities for more than 1,600 people. Approximately 30% of the food handlers in the kiosks
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container p-4" >Your Company's ‘Retail ONE' initiative fostered entrepreneurship by setting up over 830 branded kiosks such as NESCAFÉ Corners, MAGGI Hotspots, KITKAT Break Zones in educational institutes, hospital food zones, malls and airports. These kiosks are operator funded, and created employment opportunities for more than 1,600 people. Approximately 30% of the food handlers in the kiosks
         are women.</motion.p>
       </div>
     </div>

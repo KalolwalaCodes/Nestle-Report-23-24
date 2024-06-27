@@ -10,13 +10,11 @@ const Planet = () => {
        img1={"./Planets/p52.jpg"}
        heading={"Committed to a sustainable future"}
        img2={""}
+       heading2={'Planet'}
        url
      />
    </div>
    <div className="chairman-message-wrapper">
-     <motion.h3 initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}  className="bold-heading-text text-black font-bold">
-     Planet
-     </motion.h3>
      <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className="big-medium-font mt-6">
      Your Company’s sustainability commitment focuses on climate change, packaging, responsible sourcing, and water.
         </motion.p>
@@ -34,6 +32,7 @@ in secondary packaging for NESCAFÉ and eliminating overwrap on nutrition produc
 Your Company is fully compliant with Plastic Waste Management Rules and has registered as a 'Brand Owner,' ensuring 100% adherence to regulations. It continues to
 collaborate with government registered waste management agencies for the end-to-end management of plastic waste. Demonstrating its commitment under Extended Producer Responsibility (EPR), your Company responsibly managed ~25,600 MT of plastic packaging, which was above the EPR target of ~ 23,000 MT assigned by the Central Pollution Control Board.
        </p>
+       <div className='flex sm:flex-col md:flex-row gap-8'>
        <GradientCard01
             bigData={"2020"}
             smallData={"Your Company has remained plastic neutral since"}
@@ -42,14 +41,16 @@ collaborate with government registered waste management agencies for the end-to-
             bigData={"~25,600"}
             smallData={"MT of EPR"}
           />
-      <img className='w-full' src="./Planets/Artboard 43@3x.webp" alt="" />
+       </div>
+      
+      
     </motion.div>
-    <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className="qus-para">
+    <div className='flex my-4 gap-8'>
+      <div className='w-[65%]'>
+      <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className="qus-para">
     Sustainable sourcing - good food starts with good ingredients
         </motion.p>
-        <br />
         <motion.b initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} >Dairy farming</motion.b>
-        <br />
         <motion.p className="normal-paragraph-container">
         Your Company engages with around 80,000 dairy farmers across Punjab, Haryana, Rajasthan and Jammu and Kashmir and is encouraging sustainable dairy farming practices by focusing on transformation and expansion, manure management, feed and fodder management and tree plantation across the value chain. Your Company demonstrated its unwavering commitment towards reducing emissions from the dairy farms through the 'Biodigester Project'. This technology transforms cattle manure
         into clean biogas, reducing the carbon footprint of dairy farms. Approximately 109 large biodigesters and 3,325 small biodigesters have been installed in 24 districts across Punjab and Haryana. More than 550,000 trees were planted in dairy farms to sequester carbon.
@@ -58,6 +59,12 @@ collaborate with government registered waste management agencies for the end-to-
             bigData={"~80,000"}
             smallData={"Dairy farmers engaged"}
           />
+      </div>
+     
+        <img className='w-[30%]  h-[350px] p-4' src="./Planets/Artboard 43@3x.webp" alt="" />
+    </div>
+    
+       
           <motion.div initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="video-popup-content mb-6">
           <iframe className='w-full h-[500px]' src="https://www.youtube.com/embed/IN0RbOIeL-Y?si=bKfuYsCYixyKeQBJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </motion.div>
@@ -105,7 +112,7 @@ collaborate with government registered waste management agencies for the end-to-
    </div>
 
           </motion.div>
-          <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4" style={{background:"rgb(246 245 244)"}}>
+          <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4" >
    <div className='sm:w-full lg:w-[60%]'>
 <p className='qus-para'>Manufacturing gets smarter: cuts waste, boosts sustainability</p>
    <p className='normal-paragraph-container'>
@@ -119,7 +126,7 @@ collaborate with government registered waste management agencies for the end-to-
    </div>
 
           </motion.div>
-          <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4" style={{background:"rgb(246 245 244)"}} >
+          <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4"  >
    <div className='sm:w-full lg:w-[16%]'>
     <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[50%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.57.34 PM.png" alt="" />
    </div>

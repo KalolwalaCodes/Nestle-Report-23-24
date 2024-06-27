@@ -5,7 +5,10 @@ const SalesAndExports = () => {
   return (
     <div className="wrapper-main-product-portfolio">
       <div className="chairman-message-wrapper">
+       
         <motion.h3  initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}  className="bold-heading-text text-black font-bold">Sales</motion.h3>
+        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  src="./Sales/Artboard 540.webp" alt="" />
+
         <div>
           <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}}  className="qus-para">RUrban</motion.p>
           <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="normal-paragraph-container">
@@ -36,15 +39,6 @@ const SalesAndExports = () => {
             and has now scaled up to 25 states, engaging with over 1,900 women
             entrepreneurs.
           </motion.p>
-          {/* <div className='flex sm:flex-col lg:flex-row my-4'>
-   <div className='sm:w-full lg:w-[60%] p-4 pl-0'>
-   Our risk management process evaluates all significant business processes to identify risks. Of the risks identified, the following risks are considered the most relevant for your Company's business and performance.
- 
-   </div>
-   <div className='sm:w-full lg:w-[40%]'>
-     <img className='w-[90%]' src="./governance/Artboard 44@3x.webp" alt="" />
-   </div>
- </div> */}
           <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}}  className="qus-para">E-commerce</motion.p>
           <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="normal-paragraph-container">
             Your Company’s e-commerce business continued to accelerate with
@@ -82,44 +76,6 @@ const SalesAndExports = () => {
             centric promotion, participation in customer thematic properties,
             and merchandising initiatives.
           </motion.p>
-          <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  src="./Sales/Artboard 540.webp" alt="" />
-          <motion.h3 initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="bold-heading-text text-black font-bold mt-4">
-            Exports
-          </motion.h3>
-          <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="w-full">
-            <img className="w-full" src="./Sales/Artboard 520.webp" alt="" />
-          </motion.div>
-          <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4">
-            <div className="sm:w-full md-w-[60%]">
-              <p className="normal-paragraph-container mt-4">
-                Your Company’s export business delivered good growth.
-                <br />
-                <br />
-                Prepared dishes and cooking aids, led by the iconic MAGGI
-                Noodles and Sauces, witnessed an increased demand in key markets
-                such as Canada, the United States of America, Australia, New
-                Zealand, and Singapore. MAGGI Noodles also expanded its
-                footprint to newer markets such as Thailand and the Caribbean
-                Islands, demonstrating the brand's global appeal with the Indian
-                diaspora.
-                <br />
-                NESCAFÉ was a key contributor to growth in exports. NESCAFÉ
-                SUNRISE continued to gain traction in established markets such
-                as Singapore and Taiwan, and achieved a significant milestone
-                with its first ever export to Canada. Additionally, NESCAFÉ
-                Intenso roasted beans forayed into new markets in Maldives and
-                Sri Lanka.
-                <br />
-                Your Company pursued alternative route to market through
-                third-party business partners to ensure greater agility and
-                efficacy in operations. This expedited delivery and enhanced
-                operational efficiency.
-              </p>
-            </div>
-            <div className="sm:w-full md-w-[40%]">
-              <img className="w-full" src="./Sales/Artboard 530.webp" alt="" />
-            </div>
-          </motion.div>
         </div>
       </div>
     </div>

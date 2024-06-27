@@ -1,5 +1,5 @@
 .chairman-message-wrapper{
-    width: 86%;
+    width: 80%;
     padding: 2% 0;
     margin: auto;
     
@@ -10,22 +10,23 @@
 }
 .paragraph-big-container{
     color: rgb(6, 139, 128);
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 500;
 }
 .big-heading-font{
     color: black;
     font-size: 34px;
+    font-weight: 500;
 }
 .qus-para{
     margin-top: 2%;
     margin-bottom: 1%;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 600;
     color: rgb(6, 139, 128);
 }
 .normal-paragraph-container{
-    font-size: 18px;
+    font-size: 20px;
     color: black;
 }
 .small-font-text{

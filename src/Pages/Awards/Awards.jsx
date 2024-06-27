@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Awards = () => {
   return (
-    <div className="w-[86%] m-auto">
+    <div className="w-[80%] m-auto">
       <motion.h3 initial={{opacity:0,x:"-10px"}} whileInView={{opacity:1,x:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="bold-heading-text text-black font-bold">
         Awards and recognitions
       </motion.h3>

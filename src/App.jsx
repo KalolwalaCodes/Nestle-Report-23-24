@@ -17,6 +17,7 @@ import RiskAndOpportunities from "./Pages/Governance/RiskAndOpportunities";
 import Awards from "./Pages/Awards/Awards";
 import SalesAndExports from "./Pages/SalesAndExports/SalesAndExports";
 import Footer from "./Components/Footer/Footer";
+import Exports from './Pages/SalesAndExports/Exports';
 function App() {
   // Check if content has already been loaded
   const [isLoaded, setIsLoaded] = useState(
@@ -70,6 +71,7 @@ function App() {
             />
             <Route path="/Awards" element={<Awards />} />
             <Route path="/Sales-and-exports" element={<SalesAndExports />} />
+            <Route path="/exports" element={<Exports />} />
           </Routes>
         </ScrollToTop>
         <Footer/>

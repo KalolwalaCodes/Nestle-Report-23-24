@@ -94,7 +94,7 @@ body {
   margin: 0;
 }
 .laanding-page-text-container {
-  font-size: 6rem;
+  font-size: 5vw;
 }
 .main-section-02 {
   background: url("/purpose-bg.png");
@@ -115,7 +115,7 @@ body {
   font-size: 28px;
 }
 .equal-wrapper-container{
-  width: 86%;
+  width: 80%;
   margin: auto;
 }
 .bold-white-text-container {
@@ -338,10 +338,12 @@ left: 0%;
 top: 0%;
 right: 0%;
 bottom: 0%;
-background: linear-gradient(-200deg ,rgba(24, 25, 25, 0.2) 1%,transparent 70%);
 }
 .main-heading-align-top-center{
 z-index: 2;
+}
+.text-black-tt{
+  color: black !important;
 }
 .footer-main-nav{
   background: rgb(242 242 242);
@@ -353,7 +355,7 @@ z-index: 2;
 
 
 .words-wrapper {
-  font-size: 5.5vw;
+  font-size: 5vw;
    position: absolute;
   /* width: 100%; */
   left: 1%;
@@ -463,4 +465,35 @@ button{
   font-size: 32px;
   font-weight: 600;
   color: #555858;
+}
+
+.red-orange-bg{
+  background: linear-gradient(to right,#f36e36,#ef3a37);
+  z-index: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.red-orange-bg img{
+  z-index: 1;
+}
+.position-abs-full-width-div{
+  
+  background:rgb(253, 241, 229) !important;
+  
+border-radius: 8px;
+}
+
+.bod-name{
+  color:rgb(110 42 127);
+  text-align: center;
+}
+.bod-cont-main{
+background: #9adad2;
+}
+.bod-Desg{
+  text-align: center;
+  color: rgb(30, 29, 29);
+}
+.chairman-message-wrapper b{
+  font-size: 20px !important;
 }

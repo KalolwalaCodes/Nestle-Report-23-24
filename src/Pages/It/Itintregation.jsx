@@ -10,21 +10,26 @@ const Itintregation = () => {
           heading={"Our mantras for the future"}
           img2={""}
           url
+          heading2={'IT integration'}
         />
       </div>
       <div className="chairman-message-wrapper">
-        <motion.h3 initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="bold-heading-text text-black font-bold">
-        IT integration
-        </motion.h3>
-        <motion.img initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='w-full' src="./ProductPortfolio/Artboard 28@3x.webp" alt="" />
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="qus-para">
-        Turning ideas into action
+        <div className='flex sm:flex-col md:flex-row gap-8'>
+          
+        <motion.img initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className=' sm:w-full md:w-[70%]' src="./ProductPortfolio/Artboard 28@3x.webp" alt="" />
+        <div>
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="qus-para pt-0 mt-0">
+         Turning ideas into action
         </motion.p>
-          <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">
+        <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">
           Your Company embraced digital innovation as an integral aspect
-of its operations, with a dedicated Innovation Day to showcase leading-edge technological innovations to employees. Approximately 57% of the ideas presented on Innovation Day, were prototyped and many were scaled up by your Company.
-
+          of its operations, with a dedicated Innovation Day to showcase leading-edge technological innovations to employees. Approximately 57% of the ideas presented on Innovation Day, were prototyped and many were scaled up by your Company.
           </motion.p>
+          </div>
+        
+        </div>
+        
+         
         <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="qus-para">
         Robust data and actionable insights
         </motion.p>
@@ -52,7 +57,7 @@ other Nestlé markets - Vietnam, Philippines, MENA, Oceania, Indonesia and Japan
           Digital security is a top priority. Your Company ensures all employees are upskilled to create a safe and resilient organization.
           </motion.p>
           <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='w-full bg-slate-200'>
-                <img className='m-auto' src="./ProductPortfolio/Artboard 29@3x.webp" alt="" />
+                <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className='m-auto w-[70%]' src="./ProductPortfolio/Artboard 29@3x.webp" alt="" />
           </motion.div>
           <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="qus-para">
           AI transforming RUrban sales through NesMitra
@@ -95,8 +100,11 @@ It is an AI-powered eB2B platform for RUrban markets that is more effective in d
                     By adopting a culture of innovation, collaboration, and continuous learning, as well as offering training and support, your Company encouraged employees to embrace cutting-edge digital technologies. It leveraged GenAI to launch Nestlé’s version of ChatGPT – NesGPT, powered by the same technology that provides a secure, private, and compliant environment for all Nestlé employees to use.
                     </motion.p>
                     <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className='pink-bg-container p-8 mt-6'>
-                    <img className='m-auto w-[85%]' src="./ProductPortfolio/Artboard 30@3x.webp" alt="" />
-                    <img className='m-auto w-[65%] mt-4' src="./ProductPortfolio/Artboard 32@3x.webp" alt="" />
+                   <div className='flex sm:flex-col md:flex-row gap-8'>
+                   <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className='m-auto sm:w-full md:w-[58%]' src="./ProductPortfolio/Artboard 30@3x.webp" alt="" />
+                   <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='m-auto sm:w-full md:w-[40%]' src="./ProductPortfolio/Artboard 32@3x.webp" alt="" />
+                   </div>
+                   
                     </motion.div>
                     
         </div>

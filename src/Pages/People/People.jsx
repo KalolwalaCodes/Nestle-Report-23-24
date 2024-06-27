@@ -11,15 +11,16 @@ const People = () => {
        heading={"Where people make the difference"}
        img2={""}
        url
-
+     heading2={'People'}
      />
    </div>
    <div className="chairman-message-wrapper">
-     <motion.h3 initial={{opacity:0,x:"-10px"}} whileInView={{opacity:1,x:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="bold-heading-text text-black font-bold">
-     People
-     </motion.h3>
-     <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className='w-full' src="./People/Artboard 40@3x.webp" alt="" />
-    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} style={{background:"rgb(246 245 244)"}} className="flex sm:flex-col lg:flex-row p-4 mt-3">
+     <div className="flex sm:flex-col md:flex-row gap-8 w-[100%]">
+     <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className='md:w-[68%] sm:w-full' src="./People/Artboard 40@3x.webp" alt="" />
+     <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className='md:w-[30%] sm:w-full' src="./People/Artboard 39@3x.webp" alt="" />
+     </div>
+    
+    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="flex sm:flex-col lg:flex-row mt-3 gap-8">
     <div className='sm:w-full lg:w-[70%]'>
     <p className="qus-para">
      Elevating the onboarding experience
@@ -45,10 +46,13 @@ and initiatives like 'Awareness Builds Consciousness' have fostered a more suppo
        </p>
     </div>
     <div className='sm:w-full lg:w-[30%] p-4'>
-        <img  src="./People/p47q.webp" alt="" />
+        <motion.img
+          initial={{opacity:0,scale:0.8,y:"100px"}}
+          whileInView={{opacity:1,scale:1,y:0}}
+          transition={{duration:0.7,ease:"easeInOut",delay:0.1}}  src="./People/p47q.webp" alt="" />
     </div>
     </motion.div>
-    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="flex sm:flex-col lg:flex-row mt-4 p-4" style={{background:"rgb(246 245 244)"}} >
+    <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="flex sm:flex-col lg:flex-row mt-4 gap-8"  >
     <div className='sm:w-full lg:w-[70%]'>
     <p className="qus-para">
     Encouraging gender diversity
@@ -74,7 +78,10 @@ perspectives, energy, and innovative ideas.
     
     </div>
     <div className='sm:w-full lg:w-[30%] p-4'>
-        <img  src="./People/p48q2.webp" alt="" />
+        <motion.img
+          initial={{opacity:0,scale:0.8,y:"100px"}}
+          whileInView={{opacity:1,scale:1,y:0}}
+          transition={{duration:0.7,ease:"easeInOut",delay:0.1}}  src="./People/p48q2.webp" alt="" />
     </div>
 
     </motion.div>
@@ -98,7 +105,7 @@ a sounding board for innovators, aspirants and new leaders. To ensure a producti
 helps employees tackle a range of development challenges to arrive
 at unique solutions that suit their customised needs. This coaching process is conducted through an external, neutral lens to ensure that employees receive unbiased and effective guidance.
        </motion.p>
-       <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 p-4" style={{background:"rgb(246 245 244)"}}>
+       <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 gap-8" >
        <div className='sm:w-full lg:w-[70%]'>
      <p className="qus-para">
      Leadership development programmes
@@ -109,13 +116,7 @@ a range of offerings were made available to individuals seeking
 to enhance their skill sets. These offerings included transition journeys for new leaders, young leads of
 large teams, and those stepping into CXO roles. The learning solutions are a combination of experiential and immersive approaches to equip employees.
        </p>
-       </div>
-       <div className='sm:w-full lg:w-[20%] p-4 m-auto'>
-        <img  src="./People/p48q3.webp" alt="" />
-    </div>
-    </motion.div>
-       <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 p-4"style={{background:"rgb(246 245 244)"}}>
-       <div className='sm:w-full lg:w-[70%]'>
+       <div className='sm:w-full lg:w-[100%]'>
      <p className="qus-para">
      Investing in employee well-
      being
@@ -132,20 +133,33 @@ by introducing a new Nestlé Policy against violence, discrimination, and harass
             smallData={"of the workforce in Sanand factory are less than 40 years"}
           />
        </div>
-       <div className='sm:w-full lg:w-[30%] p-4'>
-        {/* <img  src="./People/p49q4.webp" alt="" />
-        <img src="./People/p49q5.webp" alt="" /> */}
-        <img src="./People/Artboard 39@3x.webp" alt="" />
+       </div>
+       <div className='sm:w-full lg:w-[30%] p-4 m-auto'>
+        <motion.img
+          initial={{opacity:0,scale:0.8,y:"100px"}}
+          whileInView={{opacity:1,scale:1,y:0}}
+          transition={{duration:0.7,ease:"easeInOut",delay:0.1}}
+            src="./People/p48q3.webp" alt="" />
     </div>
+    </motion.div>
+       <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 p-4">
+       
+       
     
     </motion.div>
-    <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 p-4" style={{background:"rgb(246 245 244)"}}>
+    <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 p-4" style={{background:"rgb(234, 229, 242)"}} >
     <div className='sm:w-full lg:w-[60%] m-auto'>
-    <img  src="./People/p49q4.webp" alt="" />
+    <motion.img
+          initial={{opacity:0,scale:0.8,y:"100px"}}
+          whileInView={{opacity:1,scale:1,y:0}}
+          transition={{duration:0.7,ease:"easeInOut",delay:0.1}}  src="./People/p49q4.webp" alt="" />
     </div>
     <div className='sm:w-full lg:w-[30%] p-4 m-auto'>
        
-        <img src="./People/p49q5.webp" alt="" />
+        <motion.img
+          initial={{opacity:0,scale:0.8,y:"100px"}}
+          whileInView={{opacity:1,scale:1,y:0}}
+          transition={{duration:0.7,ease:"easeInOut",delay:0.1}} src="./People/p49q5.webp" alt="" />
         
     </div>
     </motion.div>

@@ -11,12 +11,10 @@ const Patnerships = () => {
        heading={"Growing together to go far"}
        img2={""}
        url
+       heading2={'Partnerships'}
      />
    </div>
    <div className="chairman-message-wrapper">
-     <motion.h3 initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="bold-heading-text text-black font-bold">
-     Partnerships
-     </motion.h3>
      <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="big-medium-font mt-6">
      Your Company recognizes the importance of collaboration and
      has built a strong network of partners. This includes over 280,000 farmers, 4,600 suppliers, 10,000 distributors and re-distributors and 5.2 million retail outlets. This network, along with nine factories and 22 co-manufacturers and co-packers, produces high-quality products while delivering exceptional value to consumers.
@@ -30,6 +28,7 @@ in meeting challenges in an interconnected world.
 Product quality is paramount, from sourcing ingredients till manufacturing. Your Company adheres to the Nestlé Responsible Sourcing Standard (NRSS) in its supplier selection process. This stringent standard ensures that suppliers uphold ethical practices
 
        </motion.p>
+       <div className="flex sm:flex-col md:flex-row gap-8">
        <GradientCard01
             bigData={"4,600+"}
             smallData={"Suppliers"}
@@ -38,6 +37,8 @@ Product quality is paramount, from sourcing ingredients till manufacturing. Your
             bigData={"10,000+"}
             smallData={"Distributors and re-distributors"}
           />
+       </div>
+      
        <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">
        in business integrity, human rights, health and safety and environmental responsibility throughout their operations, production processes and sourcing practices.
 <br />
@@ -52,7 +53,7 @@ of Tanot in the west, and from the southernmost tip of Kanyakumari to remote are
 Your Company has been modernizing distribution centers to ensure faster servicing of customers and consumers.
        </motion.p>
     </div>
-    <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 lg:gap-10 p-4" style={{background:"rgb(246 245 244)"}}>
+    <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 lg:gap-10 p-4" >
     <div className='sm:w-full lg:w-[60%]'>
         <img src="./Patnerships/Artboard 42@3x.webp" alt="" />
     </div>
