@@ -33,19 +33,21 @@ const Exports = () => {
               Sri Lanka.
               
             </p>
-          </div>
-          <div className="sm:w-full md-w-[40%]">
-            <img className="w-full" src="./Sales/Artboard 530.webp" alt="" />
-          </div>
-          <br />
-             
-        </motion.div>
-        <p className='normal-paragraph-container'>
+            <p className='normal-paragraph-container'>
         Your Company pursued alternative route to market through
               third-party business partners to ensure greater agility and
               efficacy in operations. This expedited delivery and enhanced
               operational efficiency.
         </p>
+          </div>
+          <div className="sm:w-full md-w-[40%]">
+            <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="sm:w-full object-contain" src="./Sales/Artboard 530.webp" alt="" />
+           <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}}  className="sm:w-full  md:w-[100%] object-contain" src="./Sales/Arpindarjit.webp" alt="" />
+          </div>
+          <br />
+             
+        </motion.div>
+       
        
       </div>
     </div>

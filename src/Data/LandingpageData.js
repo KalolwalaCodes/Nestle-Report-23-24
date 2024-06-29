@@ -17,5 +17,5 @@ export const dataToFeedStory2=[
     ['./Landingpage/indiaStory/Artboard 10.svg','10,000+',' Distributors & redistributors'],
     ['./Landingpage/indiaStory/Artboard 11.svg','India one of the fastest',' growing markets for Nestlé globally'],
     ['./Landingpage/indiaStory/Artboard 12.svg','108.5%',' Return on net worth'],
-    ['./Landingpage/indiaStory/Artboard 13.svg','9 factories 10th',' to be set up in Odisha'],
+    ['./Landingpage/indiaStory/Artboard 13.svg','9 factories 10th',' factory is being set up in Odisha'],
 ]

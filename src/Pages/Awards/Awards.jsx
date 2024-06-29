@@ -8,8 +8,8 @@ const Awards = () => {
         Awards and recognitions
       </motion.h3>
       <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="qus-para">Company</motion.p>
-      <div className="flex justify-start align-middle flex-wrap w-full lg:gap-2  mb-6">
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full   border  rounded-lg shadow card-main-c mb-1">
+      <div className="flex justify-center align-middle flex-wrap w-full lg:gap-2  mb-6">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full   border  rounded-lg shadow card-main-c mb-1">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -24,7 +24,7 @@ const Awards = () => {
           </div>
         </motion.div>
      
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -37,7 +37,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -50,7 +50,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -64,7 +64,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -78,7 +78,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -91,7 +91,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -104,7 +104,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -118,7 +118,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -132,7 +132,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -145,7 +145,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -158,7 +158,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -173,7 +173,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -186,7 +186,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -200,7 +200,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -213,7 +213,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -227,22 +227,25 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="max-h-[400px] ">
+        {/* <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="max-h-[400px] ">
          
-        <img className="w-full" src="./Awards/Artboard 46@3x.webp" alt="" />
-        </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1">
+        </motion.div> */}
+        <div className="flex sm:flex-col md:flex-row gap-4">
+        <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.1}} className=" md:w-[25%] sm:w-full  object-cover" src="./Awards/Artboard 46@3x.webp" alt="" />
+        <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className="md:w-[25%] sm:w-full  object-cover" src="./Awards/Artboard 47@3x.webp" alt="" />
+        <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className="md:w-[25%] sm:w-full  object-cover" src="./Awards/Artboard 48@3x.webp" alt="" />
+        <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="md:w-[25%] sm:w-full  object-cover" src="./Awards/Artboard 49@3x.webp" alt="" />
+
+        </div>
+        {/* <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1">
         
-        <img className="w-full" src="./Awards/Artboard 47@3x.webp" alt="" />
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1">
         
-        <img className="w-full" src="./Awards/Artboard 48@3x.webp" alt="" />
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1">
         
-        <img className="w-full" src="./Awards/Artboard 49@3x.webp" alt="" />
-        </motion.div>
+        </motion.div> */}
        
          
           
@@ -250,9 +253,9 @@ const Awards = () => {
         
 
       </div>
-      <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.1}} className="qus-para">Brands</motion.p>
-      <div className="flex justify-start align-middle flex-wrap w-full gap-2 my-6 pb-6">
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1  border  rounded-lg shadow card-main-c ">
+      <motion.p initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.1}} className="qus-para">Brands</motion.p>
+      <div className="flex justify-center align-middle flex-wrap w-full gap-2 my-6 pb-6">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1  border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -266,7 +269,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -281,13 +284,13 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
             alt=""
           />
-          <div class="p-4 pt-0">
+         <div class="p-4 pt-0">
             <p class=" normal-paragraph-container text-center">
          <span className="pink-dark-text">MAGGI won 7</span> and  
               <span className="pink-dark-text">‘CEREGROW won 4</span>awards in
@@ -295,7 +298,15 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        {/* <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+          <img
+            class="rounded-t-lg m-auto h-[200px] pt-3"
+            src="./Landingpage/Artboard 45@3x.webp"
+            alt=""
+          />
+         
+        </motion.div> */}
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -309,7 +320,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -326,7 +337,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -340,7 +351,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -354,7 +365,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -368,7 +379,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -382,7 +393,7 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1 border  rounded-lg shadow card-main-c ">
           <img
             class="rounded-t-lg m-auto h-[200px] pt-3"
             src="./Landingpage/Artboard 45@3x.webp"
@@ -396,15 +407,20 @@ const Awards = () => {
             </p>
           </div>
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1">
+        {/* <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.5}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1">
         
-        <img className="w-full h-full" src="./Awards/Artboard 50@3x.webp" alt="" />
         </motion.div>
-        <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32%] md:w-[46%] sm:w-full sm:w-full mb-1">
+        <motion.div initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} class="lg:w-[32.5%] md:w-[46%] sm:w-full sm:w-full mb-1">
         
-        <img className="w-full" src="./Awards/Artboard 51@3x.webp" alt="" />
-        </motion.div>
+        <img className="w-full object-cover" src="./Awards/Artboard 51@3x.webp" alt="" />
+        </motion.div> */}
       </div>
+      
+      <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className=" sm:w-full  object-cover" src="./Awards/Artboard 50@3x.webp" alt="" />
+      <br />
+      <span className="pink-dark-text ">Nestlé India Limited listed on National Stock Exchange on 1st August 2023</span> 
+      <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className=" sm:w-full  object-cover" src="./Awards/Artboard 51@3x.webp" alt="" />
+
     </div>
   );
 };

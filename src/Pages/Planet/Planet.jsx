@@ -45,8 +45,8 @@ collaborate with government registered waste management agencies for the end-to-
       
       
     </motion.div>
-    <div className='flex my-4 gap-8'>
-      <div className='w-[65%]'>
+    <div className='flex my-4 gap-8 sm:flex-col md:flex-row'>
+      <div className='md:w-[65%] sm:w-full'>
       <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className="qus-para">
     Sustainable sourcing - good food starts with good ingredients
         </motion.p>
@@ -61,12 +61,15 @@ collaborate with government registered waste management agencies for the end-to-
           />
       </div>
      
-        <img className='w-[30%]  h-[350px] p-4' src="./Planets/Artboard 43@3x.webp" alt="" />
+        <img className='md:w-[40%] sm:w-full object-contain' src="./Planets/Artboard 43@3x.webp" alt="" />
     </div>
     
        
-          <motion.div initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="video-popup-content mb-6">
-          <iframe className='w-full h-[500px]' src="https://www.youtube.com/embed/IN0RbOIeL-Y?si=bKfuYsCYixyKeQBJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <motion.div className="video-popup-content mb-6 flex sm:flex-col md:flex-row gap-8">
+          <motion.img initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.8,ease:"easeInOut",delay:0.3}} className='sm:w-full lg:w-[48%]' src="./Planets/p54.webp" alt="" />
+
+          <motion.iframe initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.8,ease:"easeInOut",delay:0.1}} className='sm:w-full lg:w-[48%]'  src="https://www.youtube.com/embed/T7oqk5BdITk?si=hAfckgXPW2uxxIoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></motion.iframe>
+
               </motion.div>
        <motion.b initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}>Coffee farming</motion.b>  
        <motion.p initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">The NESCAFÉ Plan is an integrated strategy that leverages regenerative agricultural practices to address GHG emissions, soil health, water conservation and enhance biodiversity. As part of the NESCAFÉ Plan, your Company is engaged with more than 5,000 coffee farmers in sustainable agricultural practices and working towards improving their livelihood. A dedicated network of NESCAFÉ agronomists and supplier resources develop customized sustainability programmes to address the needs of the farmers.
@@ -76,12 +79,11 @@ collaborate with government registered waste management agencies for the end-to-
             bigData={"5,000+"}
             smallData={"Coffee farmers engaged"}
           />
-        <motion.div initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="video-popup-content mb-6">
-        <iframe className='w-full h-[500px]' src="https://www.youtube.com/embed/IN0RbOIeL-Y?si=VXSiGSCN0m5UcLoj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </motion.div>
+        <motion.div  className="video-popup-content mb-6 flex sm:flex-col md:flex-row">
+        <motion.iframe initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.8,ease:"easeInOut",delay:0.1}} className='sm:w-full lg:w-[48%]' src="https://www.youtube.com/embed/IN0RbOIeL-Y?si=VXSiGSCN0m5UcLoj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></motion.iframe>
+        <motion.img initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.8,ease:"easeInOut",delay:0.3}} className='sm:w-full lg:w-[48%]' src="./Planets/p55.webp" alt="" />
+        </motion.div>
               <motion.div initial={{opacity:0,scale:0.6}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='flex sm:flex-col lg:flex-row gap-8 mb-6'>
-                <img className='sm:w-full lg:w-[48%]' src="./Planets/p54.webp" alt="" />
-                <img className='sm:w-full lg:w-[48%]' src="./Planets/p55.webp" alt="" />
               </motion.div>
   <motion.b initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} >MAGGI spice plan</motion.b>
   <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="normal-paragraph-container">Spices are a priority raw material for your Company. We are determined to responsibly source spices from transparent supply chains. Through the MAGGI Spice Plan, your Company locally sources 10 key spices from suppliers across nine states - black pepper, chilli, coriander, cumin, fennel, fenugreek, cardamon, ginger, turmeric and nutmeg are 100% traceable. The MAGGI Spice Plan has trained more than 1,500 spice farmers under the project.
@@ -118,7 +120,7 @@ collaborate with government registered waste management agencies for the end-to-
    <p className='normal-paragraph-container'>
    Your Company has expanded its renewable energy projects across all factories, resulting in a 55.9% reduction in emissions over the past six years (compared to the 2018 baseline).
    </p>
-   <img className='w-[40%] mt-4' src="./Planets/Screenshot 2024-06-19 at 12.57.13 PM.png" style={{mixBlendMode:"multiply"}} alt="" />
+   <motion.img initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} viewport={{once:"true"}} className='w-[40%] mt-4' src="./Planets/Screenshot 2024-06-19 at 12.57.13 PM.png" style={{mixBlendMode:"multiply"}} alt="" />
    </div>
    <div className='sm:w-full lg:w-[40%]'>
    <p className='normal-paragraph-container mt-4'>Biomass boilers have been installed in Nanjangud, Moga, and Sanand factories for steam generation and GHG emissions reduction, and the usage of coal has been eliminated from eight factories.
@@ -126,24 +128,24 @@ collaborate with government registered waste management agencies for the end-to-
    </div>
 
           </motion.div>
-          <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4"  >
-   <div className='sm:w-full lg:w-[16%]'>
-    <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[50%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.57.34 PM.png" alt="" />
-   </div>
-   <div className='sm:w-full lg:w-[16%]'>
+          <motion.div  className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4 bg-slate-100 "  >
+   <motion.div initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='sm:w-full lg:w-[16%]'>
+    <img style={{mixBlendMode:"darken"}} className='lg:w-full sm:w-[50%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.57.34 PM.png" alt="" />
+   </motion.div>
+   <motion.div initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.1}} className='sm:w-full lg:w-[16%]'>
    <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[50%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.58.14 PM.png" alt="" />
-   </div>
+   </motion.div>
 
-   <div className='sm:w-full lg:w-[16%]'>
+   <motion.div initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className='sm:w-full lg:w-[16%]'>
    <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[50%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.58.37 PM.png" alt="" />
-   </div>
+   </motion.div>
 
-   <div className='sm:w-full lg:w-[16%]'>
+   <motion.div initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className='sm:w-full lg:w-[16%]'>
    <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[20%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.58.47 PM.png" alt="" />
-   </div>
+   </motion.div>
    <div className='sm:w-full lg:w-[30%]'>
   <p className='normal-paragraph-container mt-2'>A significant step has been taken towards water conservation projects across all factories, reducing water withdrawal intensity by 27.4% compared to the 2018 baseline.</p>
-  <img style={{mixBlendMode:"multiply"}} className='w-[80%] mt-4' src="./Planets/Screenshot 2024-06-19 at 12.59.04 PM.png" alt="" />
+  <motion.img initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} style={{mixBlendMode:"multiply"}} className='w-[80%] mt-4' src="./Planets/Screenshot 2024-06-19 at 12.59.04 PM.png" alt="" />
    </div>
           </motion.div>
           <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='normal-paragraph-container'>Your Company is harnessing technology to reduce

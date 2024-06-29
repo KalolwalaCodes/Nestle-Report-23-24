@@ -1,9 +1,18 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from 'framer-motion';
 
 export const Navbar = () => {
+  const [showDp, setShowDp] = useState(false);
+
+const toggleDropdown = () => {
+    setShowDp(!showDp);
+};
+
+// const toggleNav = () => {
+//     // Implement your navigation toggle logic here
+// };
   const imageHolderRef = useRef(null);
 
   const handleMouseOver = (event) => {
@@ -73,7 +82,7 @@ export const Navbar = () => {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 2 }}
-              className="nav-menu-wrap-1 flex"
+              className="nav-menu-wrap-1 flex gap-8"
             >
               <ul>
                 <li className="heading-wrapper-navbar">Annual Report <br /> 2023-24</li>
@@ -88,18 +97,67 @@ export const Navbar = () => {
                     Chairman's message
                   </Link>
                 </li>
+                
+                <ul className="menu">
+                <li className="special-list" onClick={toggleDropdown}>
+                 
+                  Product Portfolio
+                  
+                </li>
+        <li  className="text-black special-list ml-2">
+           
+        </li>
+        <AnimatePresence>
+            {showDp && (
+                <motion.ul
+                    className="dropdown-menu"
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: 'auto' }}
+                    exit={{ opacity: 0, height: 0 }}
+                    transition={{ duration: 0.3 }}
+                >
+                    <li>
+                        <Link onClick={toggleNav} to="/nutrition-and-milk-products">
+                            Nutrition And Milk Products
+                        </Link>
+                    </li>
+                    <li>
+                        <Link onClick={toggleNav} to="/prepared-dishes-and-cooking-aids">
+                            Prepared Dishes And Cooking Aids
+                        </Link>
+                    </li>
+                    <li>
+                        <Link onClick={toggleNav} to="/confectionery">
+                            Confectionery
+                        </Link>
+                    </li>
+                    <li>
+                        <Link onClick={toggleNav} to="/powdered-and-liquid-beverages">
+                            Powdered And Liquid Beverages
+                        </Link>
+                    </li>
+                    <li>
+                        <Link onClick={toggleNav} to="/out-of-home">
+                            Out-of-Home
+                        </Link>
+                    </li>
+                </motion.ul>
+            )}
+        </AnimatePresence>
+    </ul>
 
                 <li>
-                  <Link onClick={toggleNav} to={"/Sales-and-exports"}>
-                    Sales and Exports
+                  <Link onClick={toggleNav} to={"/Sales"}>
+                    Sales 
                   </Link>
                 </li>
-
                 <li>
-                  <Link onClick={toggleNav} to={"/Product-portfolio"}>
-                    Product portfolio
+                  <Link onClick={toggleNav} to={"/exports"}>
+                    Exports 
                   </Link>
                 </li>
+                
+                
                 <li>
                   <Link onClick={toggleNav} to={"/IT-integration"}>
                     IT integration
@@ -141,11 +199,10 @@ export const Navbar = () => {
                   </Link>
                   
                 </li>
-                <li><Link target="_blank" onClick={toggleNav} to={"./Pdf/Nestle PDF Corporate Information.pdf"}>
-                  Corporate Information
-                  </Link></li>
+                
               </ul>
               <ul>
+             
                 <li className="heading-wrapper-navbar">Download Sections</li>
                 <li>
                   <a
@@ -183,8 +240,12 @@ export const Navbar = () => {
                 <li>
                   <a  target="_blank"  onClick={toggleNav} href="./Pdf/BRSR.pdf">BRSR </a> <br />
                   <a  target="_blank"  onClick={toggleNav} href="./Pdf/Nestle India Annexure.pdf">Annexure </a>
+                  <li><Link target="_blank" onClick={toggleNav} to={"./Pdf/Nestle PDF Corporate Information.pdf"}>
+                  Corporate Information
+                  </Link></li>
                 </li>
               </ul>
+             
             </motion.div>
           </nav>
           <a id="nav-toggle" onClick={toggleNav}>

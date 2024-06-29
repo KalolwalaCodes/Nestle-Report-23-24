@@ -23,7 +23,7 @@ const Csr = () => {
   };
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true },{
-    margin: "0px 100px -50px 0px"
+    margin: "100px -160px -80px 0px"
   });  
   return (
     <div className="wrapper-main-product-portfolio">
@@ -65,7 +65,7 @@ const Csr = () => {
         />
         <p className="qus-para">Empowering communities, Improving lives</p>
        <div className=" flex sm:flex-col md:flex-row gap-8 pl-0">
-       <div className="w-[70%]">
+       <div className=" sm:w-full md:w-[70%]">
         <b>Project Jagriti</b>
         <p className="normal-paragraph-container">
           Project Jagriti was launched in 2014 in partnership with Mamta Health
@@ -86,11 +86,11 @@ const Csr = () => {
         </p>
         </div>
         
-        <div className="w-[30%]">
+        <div className="md:w-[30%] sm:w-full">
           <motion.img  initial={{opacity:0,scale:0.8,y:"100px"}}
           whileInView={{opacity:1,scale:1,y:0}}
           transition={{duration:0.7,ease:"easeInOut",delay:0.1}}
-          className="w-full "
+          className="w-full h-[300px] object-cover"
           src="./ProductPortfolio/Artboard 34@3x.webp"
           alt=""
         />
@@ -102,8 +102,13 @@ const Csr = () => {
           className="flex w-100 sm:flex-col md:flex-row mt-6 align-top gap-8"
          
         >
+           <div className="sm:w-full md:w-[30%]">
+            <motion.img className="object-cover"  initial={{opacity:0,scale:0.8,y:"100px"}}
+          whileInView={{opacity:1,scale:1,y:0}}
+          transition={{duration:0.7,ease:"easeInOut",delay:0.1}} src="./ProductPortfolio/Artboard 35@3x.webp" alt="" />
+          </div>
           <div className="sm:w-full md:w-[70%]">
-            <p className="qus-para">Empowering communities, Improving lives</p>
+            <p className="qus-para ">Empowering communities, Improving lives</p>
             <b>Nestlé Healthy Kids Programme</b>
             <p className="normal-paragraph-container">
               The Nestlé Healthy Kids Programme is a longstanding initiative
@@ -120,11 +125,7 @@ const Csr = () => {
               healthy habits.
             </p>
           </div>
-          <div className="sm:w-full md:w-[30%]">
-            <motion.img  initial={{opacity:0,scale:0.8,y:"100px"}}
-          whileInView={{opacity:1,scale:1,y:0}}
-          transition={{duration:0.7,ease:"easeInOut",delay:0.1}} src="./ProductPortfolio/Artboard 35@3x.webp" alt="" />
-          </div>
+         
         </div>
         <div
           className="flex w-100 sm:flex-col md:flex-row mt-6 align-top  pl-0 gap-8"
@@ -147,7 +148,7 @@ const Csr = () => {
             </p>
           </div>
           <div className="sm:w-full md:w-[30%]">
-            <motion.img  initial={{opacity:0,scale:0.8,y:"100px"}}
+            <motion.img className="object-cover"  initial={{opacity:0,scale:0.8,y:"100px"}}
           whileInView={{opacity:1,scale:1,y:0}}
           transition={{duration:0.7,ease:"easeInOut",delay:0.1}} src="./ProductPortfolio/Artboard 36@3x.webp" alt="" />
           </div>
@@ -156,7 +157,16 @@ const Csr = () => {
           className="flex w-100 sm:flex-col md:flex-row mt-6 align-top  gap-8"
          
         >
-          <div className="sm:w-full md:w-[70%]">
+           <div className="sm:w-full md:w-[35%] ">
+            <motion.img  initial={{opacity:0,scale:0.8,y:"100px"}}
+          whileInView={{opacity:1,scale:1,y:0}}
+          transition={{duration:0.7,ease:"easeInOut",delay:0.1}}
+              className="h-[370px] object-cover"
+              src="./ProductPortfolio/Artboard 33@3x.webp"
+              alt=""
+            />
+          </div>
+          <div className="sm:w-full md:w-[65%]">
             <p className="qus-para">
               Building a brighter future in rural Haryana
             </p>
@@ -177,15 +187,7 @@ const Csr = () => {
               empowered local communities to drive their own progress.
             </p>
           </div>
-          <div className="sm:w-full md:w-[30%] ">
-            <motion.img  initial={{opacity:0,scale:0.8,y:"100px"}}
-          whileInView={{opacity:1,scale:1,y:0}}
-          transition={{duration:0.7,ease:"easeInOut",delay:0.1}}
-              className="h-[300px]"
-              src="./ProductPortfolio/Artboard 33@3x.webp"
-              alt=""
-            />
-          </div>
+         
         </div>
         <div
           className="flex w-100 sm:flex-col md:flex-row mt-6 align-top p-4 pl-0 gap-8"
@@ -215,7 +217,7 @@ const Csr = () => {
             <motion.img  initial={{opacity:0,scale:0.8,y:"100px"}}
           whileInView={{opacity:1,scale:1,y:0}}
           transition={{duration:0.7,ease:"easeInOut",delay:0.1}}
-              className="h-[300px] w-full"
+              className="h-[300px] w-full object-cover"
               src="./ProductPortfolio/Artboard 37@3x.webp"
               alt=""
             />
@@ -225,7 +227,12 @@ const Csr = () => {
           className="flex w-100 sm:flex-col md:flex-row mt-6 align-top p-4 pl-0 gap-8"
          
         >
-          <div className="sm:w-full md:w-[70%]">
+          <div className="sm:w-full md:w-[35%]  ">
+            <motion.img className="object-cover h-[500px]"  initial={{opacity:0,scale:0.8,y:"100px"}}
+          whileInView={{opacity:1,scale:1,y:0}}
+          transition={{duration:0.7,ease:"easeInOut",delay:0.1}} src="./ProductPortfolio/Artboard 38@3x.webp" alt="" />
+          </div>
+          <div className="sm:w-full md:w-[65%]">
             <p className="qus-para">
               Clean environment: Emphasis on waste management
             </p>
@@ -253,11 +260,7 @@ const Csr = () => {
               protective gear necessary for their work.
             </p>
           </div>
-          <div className="sm:w-full md:w-[30%] ">
-            <motion.img  initial={{opacity:0,scale:0.8,y:"100px"}}
-          whileInView={{opacity:1,scale:1,y:0}}
-          transition={{duration:0.7,ease:"easeInOut",delay:0.1}} src="./ProductPortfolio/Artboard 38@3x.webp" alt="" />
-          </div>
+          
         </div>
         <div
           className="flex w-100 sm:flex-col lg:flex-row mt-6 align-top p-4 pl-0"

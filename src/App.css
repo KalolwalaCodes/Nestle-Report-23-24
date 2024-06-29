@@ -71,6 +71,7 @@ body {
 }
 .hero-section-main {
   max-height: 94vh;
+  margin-bottom: 12vh;
   position: relative;
   overflow: hidden;
 }
@@ -95,6 +96,7 @@ body {
 }
 .laanding-page-text-container {
   font-size: 5vw;
+  line-height: 6.5vw;
 }
 .main-section-02 {
   background: url("/purpose-bg.png");
@@ -175,6 +177,7 @@ body {
   .laanding-page-text-container {
     width: auto;
     font-size: 8vw;
+    line-height: 8.9vw;
   }
   .absolute-image {
     width: 42%;
@@ -206,6 +209,12 @@ body {
   }
   .main-section-02 {
     align-items: flex-start !important;
+  }
+  .landing-page-container{
+    /* margin-top: 12vh !important; */
+  }
+  .hero-section-main{
+    margin-bottom: 2% !important;
   }
 }
 .wrapper-card-container-01{
@@ -239,6 +248,9 @@ body {
   .sm\:flex-col {
       flex-direction: column !important;
   }
+  .laanding-page-text-container{
+right: 4%;
+  }
   .big-medium-font{
     font-size: 22px;
     font-weight: 300;
@@ -263,6 +275,9 @@ body {
   align-items: center !important;
   justify-content: center !important;
 
+}
+.col-reverse-small{
+  flex-direction: column-reverse !important;
 }
 #nav-fullscreen ul{
   text-align: center;
@@ -307,7 +322,7 @@ body {
   width: 130px !important;
 }
 .main-heading-align-top-center{
-  font-size: 30px !important;
+  font-size: 20px !important;
 }
 }
 .navbar{
@@ -331,13 +346,15 @@ color: #6e2a7f;
 font-weight: 700;
 font-size: 20px;
 }
-.wrapper-main-product-sec-image::after{
+.image-heading-text::after{
 position: absolute;
 content: ' ';
 left: 0%;
 top: 0%;
 right: 0%;
 bottom: 0%;
+background: linear-gradient(to bottom, rgb(31, 20, 15,0.4) 0%, transparent 30.7%, transparent 99%);
+
 }
 .main-heading-align-top-center{
 z-index: 2;
@@ -355,11 +372,11 @@ z-index: 2;
 
 
 .words-wrapper {
-  font-size: 5vw;
+  font-size: 3vw;
    position: absolute;
   /* width: 100%; */
   left: 1%;
-  font-weight: 300;
+  font-weight: 400;
   z-index: 2;
   color: white;
 }
@@ -496,4 +513,30 @@ background: #9adad2;
 }
 .chairman-message-wrapper b{
   font-size: 20px !important;
+}
+.bod-Desg{
+  font-size: 14px;
+}
+.card-main-c{
+  position: relative;
+} 
+.card-main-c img{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+width: 60%;
+height: auto;
+object-fit: cover;
+z-index: 0;
+mix-blend-mode:darken;
+}
+.card-main-c div{
+  margin-top: 30%;
+  z-index: 100;
+}
+.pink-dark-text{
+  z-index: 1000 !important;
+}
+.text-title-big{
+  font-size: 24px !important;
 }

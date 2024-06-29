@@ -86,7 +86,7 @@ export const Card = ({ rotate, scale, children }) => {
           <div className="name">
             Suresh Narayanan
             <br />
-            <span>Chairman and Managing Director, Nestlé India</span>
+            <span>Chairman and Managing Director</span>
             <br />
             <button className="">
               {" "}

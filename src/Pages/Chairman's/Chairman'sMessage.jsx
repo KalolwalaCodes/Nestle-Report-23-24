@@ -2,11 +2,13 @@ import React from "react";
 import "./ChairmanMessage.css";
 import GradientCard01 from "../../Components/GradientCard/GradientCard01";
 const ChairmanMessage = () => {
-    console.log("hii")
+  console.log("hii");
   return (
     <div className="chairman-message-wrapper">
       <div className="paragraph-big-container">
-        <span className="big-heading-font">Dear Members, <br /></span>
+        <span className="big-heading-font">
+          Dear Members, <br />
+        </span>
         2023 was a year of paradox. Notable milestones were achieved, leaving an
         indelible mark on our collective memory. India surpassed China to become
         the world’s most populous country, positioning India favourably and
@@ -32,17 +34,18 @@ const ChairmanMessage = () => {
         to its growth path, guided by its heartbeat, encapsulated in the 5 P's -
         Purpose, People, Partnerships, Planet and Performance.
         <br />
-        With a steadfast adherence to 'Make in India' spanning 112 years, your
-        Company announced its tenth factory in Odisha, reaffirming the
-        significance of India as a market. Strengthening this further, your
-        Company is poised to invest approximately H 7,500 crore between 2020 and
-        2025 to develop new capabilities and expand existing ones with a sharp
-        focus on sustained growth and innovation.
+        With a steadfast adherence to 'Make in India' your Company announced its
+        tenth factory in Odisha, reaffirming the significance of India as a
+        market. Strengthening this further, your Company is poised to invest
+        approximately ₹ 7,500 crore between 2020 and 2025 to develop new
+        capabilities and expand existing ones with a sharp focus on sustained
+        growth and innovation.
         <br />
         Your Company was listed on the National Stock Exchange and recently
-        split its shares in a 1:10 ratio to make them more affordable to shareholders. This move
-        has been positively received by the retail shareholders, giving them an
-        opportunity to be a part of the Company’s value creation journey.
+        split its shares in a 1:10 ratio to make them more affordable to
+        shareholders. This move has been positively received by the retail
+        shareholders, giving them an opportunity to be a part of the Company’s
+        value creation journey.
         <p className="qus-para">
           Balancing growth and profitability consistently
         </p>
@@ -58,15 +61,19 @@ const ChairmanMessage = () => {
         food inflation and volatile commodity prices, primarily in coffee and
         cocoa.
         <div className="flex">
-        <GradientCard01 bigData={'112 years'} smallData={"Nestlé's legacy in India"} />
-        <GradientCard01 bigData={'6.8%'} smallData={"Sales contributed by e-commerce"} />
+          <GradientCard01
+            bigData={"112 years"}
+            smallData={"Nestlé's legacy in India"}
+          />
+          <GradientCard01
+            bigData={"6.8%"}
+            smallData={"Sales contributed by e-commerce"}
+          />
         </div>
         By combining the power of its brands, meticulous planning, astute
         implementation and outstanding execution, by a diverse team of
         employees, partners, suppliers, distributors and retailers, your Company
-        delivered <b>'Performance with Pride'..</b>
-        
-
+        delivered <b>'Performance with Pride'.</b>
         <p className="qus-para">
           Investing in innovation as an engine for growth
         </p>
@@ -107,7 +114,7 @@ const ChairmanMessage = () => {
         penetrating new geographies. This resulted in a notable upswing in sales
         and expanded our direct coverage footprint, crossing the milestone of
         over 200,000 villages.
-        <GradientCard01 bigData={'140+'} smallData={"new products launched"}  />
+        <GradientCard01 bigData={"140+"} smallData={"new products launched"} />
         <p className="qus-para">
           Focusing on people, diversity, talent and generational shift
         </p>
@@ -116,7 +123,11 @@ const ChairmanMessage = () => {
         and heard, necessitates a blend of empowerment, respect and dignity,
         which is intrinsic in bolstering diversity and articulating aspirations
         and ambitions of a heterogenous team.
-        <GradientCard01 bigData={'~14 million beneficiaries*'} smallData={"societal interventions"}  />
+        <GradientCard01
+          bigData={"~14 million beneficiaries*"}
+          smallData={"societal interventions"}
+        />
+        <p className="text-sm">* direct and indirect beneficiaries</p> <br />
         Women are growing steadily in leadership in your Company and are part of
         succession plans. Their development plans are closely tracked and
         supported across all business units, factories, and branches in a quest
@@ -156,12 +167,12 @@ const ChairmanMessage = () => {
         interventions, of doing the right thing, of making meaningful
         contributions and of showing our mettle as we navigate transient clouds.
         It is a story of integrity, dedication, and diligence that nourishes the
-        roots and translates into positive impact. n all our efforts the role of
+        roots and translates into positive impact. In all our efforts the role of
         visible leadership starting with our Board of Directors is apparent.
         Leadership changes are a part of our journey and I would like to welcome
         Ms. Suneeta Reddy as an Independent Non-Executive Director of the
         Company and thank the outgoing Director, Dr. Swati A. Piramal for her
-        immense contributions as our long serving Board member.
+        immense contributions as our long serving Board members.
         <br />I would like to thank our employees, partners, suppliers,
         distributors and retailers for their unwavering faith, wholehearted
         support and for being the wind beneath our wings. I conclude by
@@ -171,7 +182,9 @@ const ChairmanMessage = () => {
         <p className="qus-para">
           Suresh Narayanan
           <br />
-          <span className="small-font-text">Chairman and Managing Director, Nestlé India</span>
+          <span className="small-font-text">
+            Chairman and Managing Director
+          </span>
         </p>
       </div>
     </div>

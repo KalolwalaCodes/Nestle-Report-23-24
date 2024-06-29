@@ -16,6 +16,7 @@ import { ScaleIn } from '../../Components/AnimationVarient';
 import { InfiniteMovingCardsNew } from '../../Components/CardComponent/InfiniteMovingCardNew';
 import TextAnimation01 from '../../Components/AnimateText/AnimatedText01';
 import BoardOfDirectorNew from '../../Components/Boardofdirector/BoardOfDirectorNew';
+import ShowCard from "../Productprotfolio/HoverCard/ShowCard";
 const LandingPage = () => {
   const words = ['Purpose', 'People', 'Partnerships', 'Performance', 'Planet'];
     const [visibleWordIndex, setVisibleWordIndex] = useState(0);
@@ -102,7 +103,10 @@ const LandingPage = () => {
           alt=""
         />
         <div className="laanding-page-text-container ">
-          <TextAnimation text={"Our Path to progress "} />
+          <TextAnimation text={"Our Path to Progress"} />
+          {/* <br />
+          <TextAnimation text={''}/>
+          <br /> */}
           <br />
           <span className="words-wrapper">
                                         {words.map((word, index) => (
@@ -158,10 +162,12 @@ const LandingPage = () => {
         <ContainerScroll />
       </div>
       <div className="section-main-0002 flex flex-col justify-center align-middle">
-        <ProductPortfolio />
-        <button className=" text-white normal-btn mb-8"> <Link to={'/Product-portfolio'}> Explore more</Link></button>
+        {/* <ProductPortfolio /> */}
+        <h3 className='bold-heading-text text-black font-bold text-center my-3'><TextAnimation01 text={'Product portfolio'}/> </h3>
+
+        <ShowCard/>
       </div>
-      <div className="main-section-04 bg-white">
+      <div className="main-section-04 bg-white my-4 mt-6">
         <h3 className="bold-heading-text text-black font-bold text-center">
         <TextAnimation01 text={"Nestlé's India story"} />  
         </h3>

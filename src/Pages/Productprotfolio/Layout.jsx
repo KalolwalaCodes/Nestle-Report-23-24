@@ -13,31 +13,31 @@ export const LayoutGrid = ({ cards}) => {
     setSelected(card);
   };
 
+
   const handleOutsideClick = () => {
     setLastSelected(selected);
     setSelected(null);
   };
-
+const issec2=true;
   return (
     <div className="w-[90%] h-full p-10 grid grid-cols-1 md:grid-cols-3  mx-auto gap-7 relative cursor-pointer">
       {cards.map((card, i) => (
         <div key={i} className={cn(card.className, "")}>
+          
           <motion.div
-            onClick={() => handleClick(card)}
+         
+            onMouseEnter={() => handleClick(card)}
             style={{background:card.colorIs}}
             className={cn(
               card.className,
               "relative overflow-hidden",
-              selected?.id === card.id
-                ? "rounded-lg cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col"
-                : lastSelected?.id === card.id
-                ? "z-40 bg-white rounded-xl h-full w-full"
-                : "bg-white rounded-xl h-full w-full"
+              "bg-white rounded-xl h-full w-full"
             )}
             layout
           >
+             
             <button className="arrow-btn-main bg-black"><img src="./arrow-right-up.svg" alt="" /></button>
-            {selected?.id === card.id && <SelectedCard selected={selected} />}
+            {/* {selected?.id === card.id && <SelectedCard selected={selected} />} */}
             <BlurImage card={card} />
           </motion.div>
         </div>
@@ -56,7 +56,10 @@ export const LayoutGrid = ({ cards}) => {
 
 const BlurImage = ({ card }) => {
   const [loaded, setLoaded] = useState(false);
+  console.log("card content",card.content)
   return (
+    <>
+    
     <img
       src={card.thumbnail}
       height="600"
@@ -68,6 +71,12 @@ const BlurImage = ({ card }) => {
       )}
       alt="thumbnail"
     />
+    {<div className="absolute bottom-[-100%] left-0 right-0 bg-gray-800 bg-opacity-75 flex items-center justify-center transition-all duration-700 group-hover:bottom-0 w-full h-full position-abs-full-width-div">
+            <div className="text-black text-center text-xl">
+              {card.content}
+            </div>
+          </div>}
+    </>
   );
 };
 

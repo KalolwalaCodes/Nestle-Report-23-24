@@ -53,13 +53,13 @@ of Tanot in the west, and from the southernmost tip of Kanyakumari to remote are
 Your Company has been modernizing distribution centers to ensure faster servicing of customers and consumers.
        </motion.p>
     </div>
-    <motion.div initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="flex sm:flex-col lg:flex-row mt-4 lg:gap-10 p-4" >
-    <div className='sm:w-full lg:w-[60%]'>
+    <motion.div className="flex sm:flex-col lg:flex-row mt-4 lg:gap-10 p-4" >
+    <motion.div initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.1}} viewport={{once:"true"}}  className='sm:w-full lg:w-[60%]'>
         <img src="./Patnerships/Artboard 42@3x.webp" alt="" />
-    </div>
-    <div className='sm:w-full lg:w-[30%] p-4'>
+    </motion.div>
+    <motion.div initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} viewport={{once:"true"}}  className='sm:w-full lg:w-[30%] p-4'>
         <img  src="./Patnerships/p51q.webp" alt="" />
-    </div>
+    </motion.div>
 
     </motion.div>
      </div>

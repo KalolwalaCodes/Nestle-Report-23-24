@@ -49,7 +49,7 @@ const SkeletonThree = ({color}) => {
 const SkeletonFour = ({color}) => {
   return (
     <div className="LinearGradient-line-bg" >
-      <p style={{color:"rgb(110 42 127)"}} className="font-bold sm:text-2xl md:text-4xl ">One of the fastest-growing business of your Company in India</p>
+      <p style={{color:"rgb(110 42 127)"}} className="font-bold sm:text-2xl md:text-4xl "></p>
       <p style={{color:"rgb(110 42 127)"}}  className="font-normal text-base sm:my-2 lg:my-4 max-w-lg text-neutral-200">
       Out-of-Home
       </p>
