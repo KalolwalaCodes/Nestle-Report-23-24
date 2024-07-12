@@ -111,11 +111,14 @@ It is an AI-powered eB2B platform for RUrban markets that is more effective in d
                     </motion.p>
                 
                    
-                    <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className='pink-bg-container p-8 mt-6'>
-                   <div className='flex sm:flex-col md:flex-row gap-8'>
+                    <motion.div initial={{opacity:0,y:"-10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className=' mt-6 flex sm:flex-col md:flex-row gap-8'>
+                   <div className='sm:w-full md:w-[60%] p-5 pink-bg-container'>
                   
-                   <motion.img initial={{opacity:0,scale:0.5,rotate:"0deg"}} whileInView={{opacity:1,scale:1,rotate:"360deg"}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='m-auto sm:w-full md:w-[40%] object-contain' src="./ProductPortfolio/Artboard 32@3x.webp" alt="" />
+                   <motion.img initial={{opacity:0,scale:0.5,rotate:"0deg"}} whileInView={{opacity:1,scale:1,rotate:"360deg"}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='w-[80%] object-contain m-auto ' src="./ProductPortfolio/Artboard 32@3x.webp" alt="" />
+                   
                    </div>
+                   <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='m-auto sm:w-full md:w-[30%] object-contain' src="./p37q.webp" alt="" />
+                  
                    
                     </motion.div>
                     

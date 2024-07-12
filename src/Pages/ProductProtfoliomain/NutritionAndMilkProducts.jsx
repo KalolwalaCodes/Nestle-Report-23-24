@@ -15,18 +15,20 @@ const NutritionAndMilkProducts = () => {
           heading2={' Milk Products and Nutrition'}
         />
       </div>
+      
       <div className="chairman-message-wrapper">
-        <div className="flex w-100 sm:flex-col md:flex-row gap-8 col-reverse-small">
-        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut"}}  className="sm:w-full md:w-[70%] object-cover" src="./ProductPortfolio/Artboard 9@3x.webp" alt="" />
-        <div>
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="big-medium-font">
+      <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}}  className="big-medium-font my-4 ">
           The Milk Products and Nutrition business registered strong growth,
           despite fluctuations in commodity prices, which were addressed through
           cost optimization and value chain efficiencies. The performance of
           Milk Products and Nutrition was further bolstered by e-commerce.
         </motion.p>
-        <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} src="./ProductPortfolio/p21.webp" alt="" />
+        <div className="flex w-100 sm:flex-col md:flex-row gap-8 col-reverse-small">
+        <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut"}}  className="sm:w-full md:w-[60%] object-cover" src="./ProductPortfolio/Artboard 9@3x.webp" alt="" />
+        <div>
        
+        <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className="w-[80%] object-contain" src="./ProductPortfolio/p21.webp" alt="" />
+        <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.1}} className="w-[80%] object-contain" src="./ProductPortfolio/p20.webp" alt="" />
         </div>
        
 
@@ -122,10 +124,10 @@ const NutritionAndMilkProducts = () => {
         </div>
         <div className="flex sm:flex-col md:flex-row gap-8">
           <div className="sm:w-full md:w-[40%]">
-            <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.1}} className="w-full object-contain" src="./ProductPortfolio/p20.webp" alt="" />
-            <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className="w-[70%] object-contain m-auto" src="./ProductPortfolio/p22q.webp" alt="" />
+            
+            <motion.img initial={{opacity:0,scale:0.5}} whileInView={{opacity:1,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className="w-full object-contain m-auto" src="./ProductPortfolio/p22q.webp" alt="" />
           </div>
-          <motion.p className="sm:w-full md:w-[60%] normal-paragraph-container" initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}>
+          <motion.p className="sm:w-full md:w-[70%] normal-paragraph-container" initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}}>
           Thicken Up Clear was launched for patients with dysphagia. It has been
           clinically proven to improve swallowing safety and efficacy. The
           product was scientifically designed and manufactured by leveraging a

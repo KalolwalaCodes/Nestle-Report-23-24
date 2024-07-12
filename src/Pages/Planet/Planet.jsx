@@ -130,27 +130,31 @@ collaborate with government registered waste management agencies for the end-to-
           </motion.div>
           <motion.div  className="flex sm:flex-col lg:flex-row gap-4 mt-6 p-4 bg-slate-100 "  >
    <motion.div initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='sm:w-full lg:w-[16%]'>
-    <img style={{mixBlendMode:"darken"}} className='lg:w-full sm:w-[50%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.57.34 PM.png" alt="" />
+    <img style={{mixBlendMode:"darken"}} className='lg:w-full sm:w-[50%] m-auto p-4 mt-4' src="./Graph/Artboard 2@4x.png" alt="" />
    </motion.div>
    <motion.div initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.1}} className='sm:w-full lg:w-[16%]'>
-   <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[50%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.58.14 PM.png" alt="" />
+   <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[50%] m-auto p-4 mt-4' src="./Graph/Artboard 3@4x.png" alt="" />
    </motion.div>
 
    <motion.div initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.2}} className='sm:w-full lg:w-[16%]'>
-   <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[50%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.58.37 PM.png" alt="" />
+   <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[50%] m-auto p-4 ' src="./Graph/Artboard 4@4x.png" alt="" />
    </motion.div>
 
    <motion.div initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.3}} className='sm:w-full lg:w-[16%]'>
-   <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[20%] m-auto p-4' src="./Planets/Screenshot 2024-06-19 at 12.58.47 PM.png" alt="" />
+   <img style={{mixBlendMode:"multiply"}} className='lg:w-full sm:w-[50%] m-auto p-4 ' src="./Graph/Artboard 5@4x.png" alt="" />
    </motion.div>
    <div className='sm:w-full lg:w-[30%]'>
   <p className='normal-paragraph-container mt-2'>A significant step has been taken towards water conservation projects across all factories, reducing water withdrawal intensity by 27.4% compared to the 2018 baseline.</p>
   <motion.img initial={{opacity:0,y:"10px",scale:0.5}} whileInView={{opacity:1,y:0,scale:1}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} style={{mixBlendMode:"multiply"}} className='w-[80%] mt-4' src="./Planets/Screenshot 2024-06-19 at 12.59.04 PM.png" alt="" />
    </div>
           </motion.div>
-          <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='normal-paragraph-container'>Your Company is harnessing technology to reduce
+          <div className="flex sm:flex-col md:flex-row gap-8 mt-5">
+             <motion.p initial={{opacity:0,y:"10px"}} whileInView={{opacity:1,y:0}} transition={{duration:0.5,ease:"easeInOut",delay:0.4}} className='normal-paragraph-container w-[70%] p-5'>Your Company is harnessing technology to reduce
           its reliance on groundwater. Through the successful implementation of Zer'Eau technology in Moga and Samalkha factories, water extracted from milk is recycled to reduce groundwater consumption every year.
           </motion.p>
+          <img className='md:w-[30%] sm:w-[80%] m-auto' src="./p57q.webp" alt="" />
+          </div>
+         
      </div>
  </div>
   )

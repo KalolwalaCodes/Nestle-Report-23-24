@@ -236,9 +236,11 @@ const People = () => {
           className="flex sm:flex-col lg:flex-row mt-4 gap-8 align-top"
           // style={{ background: "rgb(234, 229, 242)" }}
         >
-          {/* <div className="sm:w-full lg:w-[60%] m-auto">
+          {/* 
+          <div className="sm:w-full lg:w-[60%] m-auto">
            
-          </div> */}
+          </div> 
+          */}
           {/* <div className="sm:w-full lg:w-[30%] p-4 m-auto">
             <motion.img
               initial={{ opacity: 0, scale: 0.8, y: "100px" }}
@@ -252,18 +254,30 @@ const People = () => {
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, ease: "easeInOut", delay: 0.2 }}
-            className="md:w-[40%] sm:w-full h-[500px] object-contain"
+            className="md:w-[40%] sm:w-full  object-contain"
             src="./People/Artboard 39@3x.webp"
             alt=""
           />
-           <motion.img
-            className="object-contain md:w-[60%] sm:w-full"
+          <div className="md:w-[60%] sm:w-full">
+          <motion.img
+            className="object-contain w-full"
               initial={{ opacity: 0, scale: 0.8, y: "100px" }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ duration: 0.7, ease: "easeInOut", delay: 0.1 }}
-              src="./People/p49q4.webp"
+              src="./pq49.png"
               alt=""
             />
+           <motion.img
+            className="object-contain h-[400px] w-[80%] "
+              initial={{ opacity: 0, scale: 0.8, y: "100px" }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ duration: 0.7, ease: "easeInOut", delay: 0.1 }}
+              src="./p49q5.webp"
+              alt=""
+            />
+            
+          </div>
+           
         </motion.div>
       </div>
     </div>

@@ -9,7 +9,7 @@ const cards = [
     copy: "Contribution to total sales",
     button: "Read More",
     thumbnail: "./ProductPortfolio/Artboard 2@3x.png",
-    url:"/nutrition-and-milk-products"
+    url: "/nutrition-and-milk-products",
   },
   {
     heading: "Prepared Dishes and Cooking Aids",
@@ -17,7 +17,7 @@ const cards = [
     copy: "Contribution to total sales",
     button: "Read More",
     thumbnail: "./ProductPortfolio/Artboard 3@3x.png",
-    url:"/prepared-dishes-and-cooking-aids"
+    url: "/prepared-dishes-and-cooking-aids",
   },
   {
     heading: "Confectionery",
@@ -25,7 +25,7 @@ const cards = [
     copy: "Contribution to total sales",
     button: "Read More",
     thumbnail: "./ProductPortfolio/Artboard 4@3x.png",
-    url:"/confectionery"
+    url: "/confectionery",
   },
   {
     heading: " Powdered and Liquid Beverages",
@@ -33,14 +33,14 @@ const cards = [
     copy: "Contribution to total sales",
     button: "Read More",
     thumbnail: "./ProductPortfolio/Artboard 5@3x.png",
-    url:"/Powdered-and-liquid-beverages"
+    url: "/Powdered-and-liquid-beverages",
   },
   {
     heading: " Out-of-Home",
     title: "One of the fastest-growing business of your Company in India",
     button: "Read More",
     thumbnail: "./ProductPortfolio/Artboard 6@3x.png",
-    url:"/Out-of-Home"
+    url: "/Out-of-Home",
   },
 ];
 

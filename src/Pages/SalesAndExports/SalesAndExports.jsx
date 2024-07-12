@@ -14,8 +14,8 @@ const SalesAndExports = () => {
           Sales
         </motion.h3>
         <motion.img
-          initial={{ opacity: 0,scale:0.5}}
-          whileInView={{ opacity: 1,scale:1 }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
           src="./Sales/Artboard 540.webp"
           alt=""
@@ -109,48 +109,49 @@ const SalesAndExports = () => {
             className="normal-paragraph-container"
           >
             Your Company’s direct-to- consumer (D2C) e-commerce platform –
-          <a href="www.mynestle.in">www.mynestle.in</a> is operational in Delhi-NCR and Bangalore. Launched
-            with the aim of providing customers with curated product bundles and
-            a range of services, including gourmet recipes, personalised
-            gifting, and subscriptions, the platform also offers free nutrition
-            counseling. Since its launch, MyNestle.in has witnessed a steady
-            increase in both website visitors and transactions, demonstrating a
-            positive response from consumers. This growth highlights the
-            platform's success in meeting the evolving needs and preferences of
-            today's online shoppers.
+            <a href="www.mynestle.in">www.mynestle.in</a> is operational in
+            Delhi-NCR and Bangalore. Launched with the aim of providing
+            customers with curated product bundles and a range of services,
+            including gourmet recipes, personalised gifting, and subscriptions,
+            the platform also offers free nutrition counseling. Since its
+            launch, MyNestle.in has witnessed a steady increase in both website
+            visitors and transactions, demonstrating a positive response from
+            consumers. This growth highlights the platform's success in meeting
+            the evolving needs and preferences of today's online shoppers.
             <br />
           </motion.p>
           <div className="flex sm:flex-col md:flex-row gap-8">
-          <div className="sm:w-full md:w-[70%]">
-             <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5, ease: "easeInOut", delay: 0.4 }}
-            className="qus-para"
-          >
-            Organized trade
-          </motion.p>
+            <div className="sm:w-full md:w-[70%]">
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.5, ease: "easeInOut", delay: 0.4 }}
+                className="qus-para"
+              >
+                Organized trade
+              </motion.p>
 
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5, ease: "easeInOut", delay: 0.4 }}
-            className="normal-paragraph-container mb-4"
-          >
-            The channel saw broad-based growth across product groups. Retail
-            delivered double-digit growth driven by store expansion, shopper-
-            centric promotion, participation in customer thematic properties,
-            and merchandising initiatives.
-          </motion.p>
+              <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.5, ease: "easeInOut", delay: 0.4 }}
+                className="normal-paragraph-container mb-4"
+              >
+                The channel saw broad-based growth across product groups. Retail
+                delivered double-digit growth driven by store expansion,
+                shopper- centric promotion, participation in customer thematic
+                properties, and merchandising initiatives.
+              </motion.p>
+            </div>
+            <motion.img
+              initial={{ opacity: 0, scale: 0.5 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, ease: "easeInOut", delay: 0.1 }}
+              className="sm:w-full md:w-[30%]"
+              src="./Sales/Sushrut.webp"
+              alt=""
+            />
           </div>
-            <motion.img  initial={{ opacity: 0,scale:0.5 }}
-            whileInView={{ opacity: 1 ,scale:1}}
-            transition={{ duration: 0.5, ease: "easeInOut", delay: 0.1 }}
-             className="sm:w-full md:w-[30%]" src="./Sales/Sushrut.webp" alt="" />
-
-          </div>
-          
-         
         </div>
       </div>
     </div>
